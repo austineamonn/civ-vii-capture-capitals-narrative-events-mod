@@ -11,25 +11,25 @@
             <Text>We will use our resources to enhance our wealth.</Text>
         </Row>
         <Row Tag="LOC_CCNE301B_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique American Tradition, {LOC_TRADITION_GOLD_RUSH_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE301C_NAME">
             <Text>We will use our resources to enhance our influence.</Text>
         </Row>
         <Row Tag="LOC_CCNE301C_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique American Tradition, {LOC_TRADITION_ROBBER_BARON_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE301D_NAME">
             <Text>We will trade our way to wealth and power.</Text>
         </Row>
         <Row Tag="LOC_CCNE301D_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique American Tradition, {LOC_TRADITION_LEND_LEASE_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE301E_NAME">
             <Text>Send the first general back to the field.</Text>
         </Row>
         <Row Tag="LOC_CCNE301E_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Free Promotion on a Commander.</Text>
         </Row>
         <Row Tag="LOC_CCNE302A_STORYTITLE">
             <Text>A Fallen Capital</Text>
@@ -41,25 +41,25 @@
             <Text>Family ties are worth preserving.</Text>
         </Row>
         <Row Tag="LOC_CCNE302B_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Bugandan Tradition, {LOC_TRADITION_CLAN_SOCIETY_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE302C_NAME">
             <Text>Lakes can provide great strength.</Text>
         </Row>
         <Row Tag="LOC_CCNE302C_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Bugandan Tradition, {LOC_TRADITION_NG_OMA_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE302D_NAME">
             <Text>Lakes can provide great beauty.</Text>
         </Row>
         <Row Tag="LOC_CCNE302D_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Bugandan Tradition, {LOC_TRADITION_INTERLACUSTRINE_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE302E_NAME">
             <Text>Send the first general back to the field.</Text>
         </Row>
         <Row Tag="LOC_CCNE302E_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Free Promotion on a Commander.</Text>
         </Row>
         <Row Tag="LOC_CCNE303A_STORYTITLE">
             <Text>A Fallen Capital</Text>
@@ -71,31 +71,31 @@
             <Text>Focus on Architecture.</Text>
         </Row>
         <Row Tag="LOC_CCNE303B_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique French Empire Tradition, {LOC_TRADITION_STYLE_EMPIRE_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE303C_NAME">
             <Text>Violence is cultural.</Text>
         </Row>
         <Row Tag="LOC_CCNE303C_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique French Empire Tradition, {LOC_TRADITION_COCORICO_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE303D_NAME">
             <Text>None shall stand in our way.</Text>
         </Row>
         <Row Tag="LOC_CCNE303D_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique French Empire Tradition, {LOC_TRADITION_BATAILLON_CARRE_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE303E_NAME">
             <Text>Embrace the spirit of revolution.</Text>
         </Row>
         <Row Tag="LOC_CCNE303E_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique French Empire Tradition, {LOC_TRADITION_ROBESPIERRE_REIGN_OF_TERROR_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE303F_NAME">
             <Text>Send the first general back to the field.</Text>
         </Row>
         <Row Tag="LOC_CCNE303F_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Free Promotion on a Commander.</Text>
         </Row>
         <Row Tag="LOC_CCNE304A_STORYTITLE">
             <Text>A Fallen Capital</Text>
@@ -107,31 +107,31 @@
             <Text>The sea and sky can teach us many things.</Text>
         </Row>
         <Row Tag="LOC_CCNE304B_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Meiji Tradition, {LOC_TRADITION_FUKOKU_KYOHEI_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE304C_NAME">
             <Text>Smart citizens are productive citizens.</Text>
         </Row>
         <Row Tag="LOC_CCNE304C_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Meiji Tradition, {LOC_TRADITION_O_YATOI_GAIKOKUJIN_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE304D_NAME">
             <Text>Use the ocean for military strategies.</Text>
         </Row>
         <Row Tag="LOC_CCNE304D_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Meiji Tradition, {LOC_TRADITION_SHUSEI_KOKUBO_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE304E_NAME">
             <Text>Give our strength to our pilots.</Text>
         </Row>
         <Row Tag="LOC_CCNE304E_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Meiji Tradition, {LOC_TRADITION_KOKUTAI_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE304F_NAME">
             <Text>Send the first general back to the field.</Text>
         </Row>
         <Row Tag="LOC_CCNE304F_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Free Promotion on a Commander.</Text>
         </Row>
         <Row Tag="LOC_CCNE305A_STORYTITLE">
             <Text>A Fallen Capital</Text>
@@ -143,31 +143,31 @@
             <Text>Our traditions bring us joy.</Text>
         </Row>
         <Row Tag="LOC_CCNE305B_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Mexican Tradition, {LOC_TRADITION_CORRIDOS_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE305C_NAME">
             <Text>Our homeland gives us strength.</Text>
         </Row>
         <Row Tag="LOC_CCNE305C_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Mexican Tradition, {LOC_TRADITION_CRY_OF_DOLORES_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE305D_NAME">
             <Text>Remind the townsfolk of our great history.</Text>
         </Row>
         <Row Tag="LOC_CCNE305D_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Mexican Tradition, {LOC_TRADITION_LA_REFORMA_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE305E_NAME">
             <Text>Remind the city dwellers of our great history.</Text>
         </Row>
         <Row Tag="LOC_CCNE305E_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Mexican Tradition, {LOC_TRADITION_ORDER_AND_PROGRESS_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE305F_NAME">
             <Text>Send the first general back to the field.</Text>
         </Row>
         <Row Tag="LOC_CCNE305F_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Free Promotion on a Commander.</Text>
         </Row>
         
         <Row Tag="LOC_CCNE306A_STORYTITLE">
@@ -180,31 +180,31 @@
             <Text>Farming communities bring wealth.</Text>
         </Row>
         <Row Tag="LOC_CCNE306B_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Mughal Tradition, {LOC_TRADITION_JINSI_KAMIL_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE306C_NAME">
             <Text>Raise taxes on gated communities.</Text>
         </Row>
         <Row Tag="LOC_CCNE306C_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Mughal Tradition, {LOC_TRADITION_QILACHAS_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE306D_NAME">
             <Text>Glory to the army.</Text>
         </Row>
         <Row Tag="LOC_CCNE306D_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Mughal Tradition, {LOC_TRADITION_GUNPOWDER_EMPIRE_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE306E_NAME">
             <Text>Everyone likes a discount.</Text>
         </Row>
         <Row Tag="LOC_CCNE306E_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Mughal Tradition, {LOC_TRADITION_MAYURASANA_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE306F_NAME">
             <Text>Send the first general back to the field.</Text>
         </Row>
         <Row Tag="LOC_CCNE306F_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Free Promotion on a Commander.</Text>
         </Row>
         <Row Tag="LOC_CCNE307A_STORYTITLE">
             <Text>A Fallen Capital</Text>
@@ -216,31 +216,31 @@
             <Text>Collect resources to increase productivity.</Text>
         </Row>
         <Row Tag="LOC_CCNE307B_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Prussian Tradition, {LOC_TRADITION_COKING_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE307C_NAME">
             <Text>Immigrants bring the culture.</Text>
         </Row>
         <Row Tag="LOC_CCNE307C_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Prussian Tradition, {LOC_TRADITION_MEDIATIZATION_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE307D_NAME">
             <Text>War motivates workers.</Text>
         </Row>
         <Row Tag="LOC_CCNE307D_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Prussian Tradition, {LOC_TRADITION_REALPOLITIK_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE307E_NAME">
             <Text>Trained commanders motivate soldiers.</Text>
         </Row>
         <Row Tag="LOC_CCNE307E_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Prussian Tradition, {LOC_TRADITION_IRON_CROSS_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE307F_NAME">
             <Text>Send the first general back to the field.</Text>
         </Row>
         <Row Tag="LOC_CCNE307F_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Free Promotion on a Commander.</Text>
         </Row>
         <Row Tag="LOC_CCNE308A_STORYTITLE">
             <Text>A Fallen Capital</Text>
@@ -252,31 +252,31 @@
             <Text>Send resources to the towns.</Text>
         </Row>
         <Row Tag="LOC_CCNE308B_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Qing Tradition, {LOC_TRADITION_CHUANG_GUANDONG_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE308C_NAME">
             <Text>Increase the tariffs.</Text>
         </Row>
         <Row Tag="LOC_CCNE308C_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Qing Tradition, {LOC_TRADITION_COHONG_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE308D_NAME">
             <Text>Focus on the land over the sea.</Text>
         </Row>
         <Row Tag="LOC_CCNE308D_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Qing Tradition, {LOC_TRADITION_FARMLAND_ASSESSMENT_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE308E_NAME">
             <Text>Send rations to the land troops.</Text>
         </Row>
         <Row Tag="LOC_CCNE308E_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Qing Tradition, {LOC_TRADITION_BANNER_ARMY_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE308F_NAME">
             <Text>Send the first general back to the field.</Text>
         </Row>
         <Row Tag="LOC_CCNE308F_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Free Promotion on a Commander.</Text>
         </Row>
         <Row Tag="LOC_CCNE309A_STORYTITLE">
             <Text>A Fallen Capital</Text>
@@ -288,61 +288,61 @@
             <Text>Increase worker hours.</Text>
         </Row>
         <Row Tag="LOC_CCNE309B_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Russian Tradition, {LOC_TRADITION_EMANCIPATION_REFORM_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE309C_NAME">
             <Text>Focus on technology over art.</Text>
         </Row>
         <Row Tag="LOC_CCNE309C_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Russian Tradition, {LOC_TRADITION_WESTERNIZATION_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE309D_NAME">
             <Text>Find strength in the tundra.</Text>
         </Row>
         <Row Tag="LOC_CCNE309D_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Russian Tradition, {LOC_TRADITION_GENERAL_MOROZ_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE309E_NAME">
             <Text>Send the first general back to the field.</Text>
         </Row>
         <Row Tag="LOC_CCNE309E_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Free Promotion on a Commander.</Text>
         </Row>
         <Row Tag="LOC_CCNE3010A_STORYTITLE">
             <Text>A Fallen Capital</Text>
         </Row>
         <Row Tag="LOC_CCNE3010A_COMPLETION">
-            <Text>Troops march in as you topple the Siam Capital. As plans to assimilate the new citizens are laid out a fight breaks out. One general argues that the Qing citizens might have some ideas worth borrowing, while another insists that differences must be ironed out to ensure cohesion.</Text>
+            <Text>Troops march in as you topple the Siamese Capital. As plans to assimilate the new citizens are laid out a fight breaks out. One general argues that the Siamese citizens might have some ideas worth borrowing, while another insists that differences must be ironed out to ensure cohesion.</Text>
         </Row>
         <Row Tag="LOC_CCNE3010B_NAME">
             <Text>Celebrate City States.</Text>
         </Row>
         <Row Tag="LOC_CCNE3010B_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Siamese Tradition, {LOC_TRADITION_SAKDINA_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE3010C_NAME">
             <Text>Tax the banks to expand our influence.</Text>
         </Row>
         <Row Tag="LOC_CCNE3010C_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Siamese Tradition, {LOC_TRADITION_STATE_RAILWAY_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE3010D_NAME">
             <Text>Tax City States.</Text>
         </Row>
         <Row Tag="LOC_CCNE3010D_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Siamese Tradition, {LOC_TRADITION_MUEANG_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE3010E_NAME">
             <Text>Push diplomatic agenda on City States.</Text>
         </Row>
         <Row Tag="LOC_CCNE3010E_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Unlock a unique Siamese Tradition, {LOC_TRADITION_PRATHETSARAT_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE3010F_NAME">
             <Text>Send the first general back to the field.</Text>
         </Row>
         <Row Tag="LOC_CCNE3010F_DESCRIPTION">
-            <Text>{1_reward}.</Text>
+            <Text>Free Promotion on a Commander.</Text>
         </Row>
     </EnglishText>
 </Database>

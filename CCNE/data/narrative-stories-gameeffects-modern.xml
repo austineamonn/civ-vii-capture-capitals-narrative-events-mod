@@ -6,7 +6,6 @@
     <!-- America -->
     <Modifier id="CCNE301B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
 		<Argument name="Tradition">TRADITION_GOLD_RUSH</Argument>
-		<!--<Argument name="Lock">false</Argument>-->
 	</Modifier>
     <Modifier id="CCNE301C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
 		<Argument name="Tradition">TRADITION_ROBBER_BARON</Argument>
@@ -141,16 +140,16 @@
     </Modifier>
     <!-- Siam -->
     <Modifier id="CCNE3010B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
-		<Argument name="Tradition">TRADITION_STATE_RAILWAY</Argument>
-	</Modifier>
-    <Modifier id="CCNE3010C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
 		<Argument name="Tradition">TRADITION_SAKDINA</Argument>
 	</Modifier>
+    <Modifier id="CCNE3010C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_STATE_RAILWAY</Argument>
+	</Modifier>
     <Modifier id="CCNE3010D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
-		<Argument name="Tradition">TRADITION_PRATHETSARAT</Argument>
+		<Argument name="Tradition">TRADITION_MUEANG</Argument>
 	</Modifier>
     <Modifier id="CCNE3010E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
-		<Argument name="Tradition">TRADITION_MUEANG</Argument>
+		<Argument name="Tradition">TRADITION_PRATHETSARAT</Argument>
 	</Modifier>
     <Modifier id="CCNE3010F_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="true" permanent="true">
         <Argument name="Amount">1</Argument>
