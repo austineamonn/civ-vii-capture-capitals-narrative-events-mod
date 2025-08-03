@@ -1,4 +1,4 @@
-Capture Capital Narrative Events Civ VII Mod
+Capture Capital Narrative Events (CCNE) Civ VII Mod
 
 Author: Austin Nicolas
 

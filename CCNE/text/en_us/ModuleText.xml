@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_MODULE_CCNE_NAME">
+			<Text>Capture Capital Narrative Events</Text>
+		</Row>
+		<Row Tag="LOC_MODULE_CCNE_DESCRIPTION">
+			<Text>Gain a Tradition when capturing another Civiliation's Capital for the first time.</Text>
+		</Row>
+	</EnglishText>
+</Database>

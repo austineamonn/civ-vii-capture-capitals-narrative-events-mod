@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="capture_capital_narrative_events" version="1"
+	xmlns="ModInfo">
+	<Properties>
+		<Name>LOC_MODULE_CCNE_NAME</Name>
+		<Description>LOC_MODULE_CCNE_DESCRIPTION</Description>
+		<Authors>Austin Nicolas</Authors>
+		<Package>DLC</Package>
+		<!--<AffectsSavedGames>1</AffectsSavedGames>-->
+	</Properties>
+	<Dependencies>
+		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+	</Dependencies>
+	<References>
+		<Mod id="assyria" title="LOC_MODULE_ASSYRIA_NAME"/>
+		<Mod id="bulgaria" title="LOC_MODULE_BULGARIA_NAME"/>
+		<Mod id="carthage" title="LOC_MODULE_CARTHAGE_NAME"/>
+		<Mod id="dai-viet" title="LOC_MODULE_DAI_VIET_NAME"/>
+		<Mod id="earth-kingdom" title="LOC_MODULE_EARTH_KINGDOM_NAME"/>
+		<Mod id="great-britain" title="LOC_MODULE_GREAT_BRITAIN_NAME"/>
+		<Mod id="nepal" title="LOC_MODULE_NEPAL_NAME"/>
+		<Mod id="shawnee" title="LOC_MODULE_SHAWNEE_TECUMSEH_NAME"/>
+	</References>
+	<ActionCriteria>
+		<Criteria id="antiquity-age-current">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
+		<Criteria id="antiquity-age-persist" any="true">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-current">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-persist" any="true">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="modern-age-current">
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="modern-age-persist" any="true">
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
+		<!--DLC and Modded Civs-->
+		<Criteria id="assyria-enable" all="true">
+            <ModInUse>assyria</ModInUse>
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+        </Criteria>
+		<Criteria id="bulgaria-enable" all="true">
+            <ModInUse>bulgaria</ModInUse>
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+        </Criteria>
+		<Criteria id="carthage-enable" all="true">
+            <ModInUse>carthage</ModInUse>
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+        </Criteria>
+		<Criteria id="dai-viet-enable" all="true">
+            <ModInUse>dai-viet</ModInUse>
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+        </Criteria>
+        <Criteria id="earth-kingdom-enable" all="true">
+            <ModInUse>earth-kingdom</ModInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+        </Criteria>
+		<Criteria id="great-britain-enable" all="true">
+            <ModInUse>great-britain</ModInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+        </Criteria>
+		<Criteria id="nepal-enable" all="true">
+            <ModInUse>nepal</ModInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+        </Criteria>
+		<Criteria id="shawnee-enable" all="true">
+            <ModInUse>shawnee</ModInUse>
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+        </Criteria>
+	</ActionCriteria>
+	<ActionGroups>
+		<!-- DLC and Modded Civ's Compatibility -->
+		<!--<ActionGroup id="base-game-main-assyria" scope="game" criteria="assyria-enable">
+			<Actions>
+                <UpdateDatabase>
+					<Item>data/narrative-stories-assyria.xml</Item>
+					<Item>data/narrative-stories-gameeffects-assyria.xml</Item>
+                </UpdateDatabase>
+            </Actions>
+		</ActionGroup>
+		<ActionGroup id="base-game-main-bulgaria" scope="game" criteria="bulgaria-enable">
+			<Actions>
+                <UpdateDatabase>
+					<Item>data/narrative-stories-bulgaria.xml</Item>
+					<Item>data/narrative-stories-gameeffects-bulgaria.xml</Item>
+                </UpdateDatabase>
+            </Actions>
+		</ActionGroup>
+		<ActionGroup id="base-game-main-carthage" scope="game" criteria="carthage-enable">
+			<Actions>
+                <UpdateDatabase>
+					<Item>data/narrative-stories-carthage.xml</Item>
+					<Item>data/narrative-stories-gameeffects-carthage.xml</Item>
+                </UpdateDatabase>
+            </Actions>
+		</ActionGroup>
+		<ActionGroup id="base-game-main-dai-viet" scope="game" criteria="dai-viet-enable">
+			<Actions>
+                <UpdateDatabase>
+					<Item>data/narrative-stories-dai-viet.xml</Item>
+					<Item>data/narrative-stories-gameeffects-dai-viet.xml</Item>
+                </UpdateDatabase>
+            </Actions>
+		</ActionGroup>
+		<ActionGroup id="base-game-main-earth-kingdom" scope="game" criteria="earth-kingdom-enable">
+			<Actions>
+                <UpdateDatabase>
+					<Item>data/narrative-stories-earth-kingdom.xml</Item>
+					<Item>data/narrative-stories-gameeffects-earth-kingdom.xml</Item>
+                </UpdateDatabase>
+            </Actions>
+		</ActionGroup>
+		<ActionGroup id="base-game-main-great-britain" scope="game" criteria="great-britain-enable">
+			<Actions>
+                <UpdateDatabase>
+					<Item>data/narrative-stories-great-britain.xml</Item>
+					<Item>data/narrative-stories-gameeffects-great-britain.xml</Item>
+                </UpdateDatabase>
+            </Actions>
+		</ActionGroup>
+		<ActionGroup id="base-game-main-nepal" scope="game" criteria="nepal-enable">
+			<Actions>
+                <UpdateDatabase>
+					<Item>data/narrative-stories-nepal.xml</Item>
+					<Item>data/narrative-stories-gameeffects-nepal.xml</Item>
+                </UpdateDatabase>
+            </Actions>
+		</ActionGroup>
+		<ActionGroup id="base-game-main-shawnee" scope="game" criteria="shawnee-enable">
+			<Actions>
+                <UpdateDatabase>
+					<Item>data/narrative-stories-shawnee.xml</Item>
+					<Item>data/narrative-stories-gameeffects-shawnee.xml</Item>
+                </UpdateDatabase>
+            </Actions>
+		</ActionGroup>-->
+		<!-- CCNE -->
+		<!--<ActionGroup id="age-antiquity-persist-CCNE" scope="game" criteria="antiquity-age-persist">
+			<Actions>
+				<UpdateText>
+					<Item>text/en_us/NarrativeStoriesAntiquityText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>-->
+		<!--<ActionGroup id="antiquity-age-current-CCNE" scope="game" criteria="antiquity-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/narrative-stories-antiquity.xml</Item>
+					<Item>data/narrative-stories-gameeffects-antiquity.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/NarrativeStoriesAntiquityText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>-->
+		<!--<ActionGroup id="exploration-age-persist-CCNE" scope="game" criteria="exploration-age-persist">
+			<Actions>
+				<UpdateText>
+					<Item>text/en_us/NarrativeStoriesAntiquityText.xml</Item>
+					<Item>text/en_us/NarrativeStoriesExplorationText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>-->
+		<!--<ActionGroup id="exploration-age-current-CCNE" scope="game" criteria="exploration-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/narrative-stories-exploration.xml</Item>
+					<Item>data/narrative-stories-gameeffects-exploration.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/NarrativeStoriesExplorationText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>-->
+		<!--<ActionGroup id="modern-age-persist-CCNE" scope="game" criteria="modern-age-persist">
+			<Actions>
+				<UpdateText>
+					<Item>text/en_us/NarrativeStoriesAntiquityText.xml</Item>
+					<Item>text/en_us/NarrativeStoriesExplorationText.xml</Item>
+					<Item>text/en_us/NarrativeStoriesModernText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>-->
+		<ActionGroup id="modern-age-current-CCNE" scope="game" criteria="modern-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/narrative-stories-modern.xml</Item>
+					<Item>data/narrative-stories-gameeffects-modern.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/NarrativeStoriesModernText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="shell-CCNE" scope="shell" criteria="always">
+			<Actions>
+				<UpdateText>
+					<!--<Item>text/en_us/NarrativeStoriesAntiquityText.xml</Item>
+					<Item>text/en_us/NarrativeStoriesExplorationText.xml</Item>-->
+					<Item>text/en_us/NarrativeStoriesModernText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+	</ActionGroups>
+	<LocalizedText>
+		<File>text/en_us/ModuleText.xml</File>
+	</LocalizedText>
+</Mod>
