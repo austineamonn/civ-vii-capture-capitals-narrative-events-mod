@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Row Tag="LOC_CCNE1011A_STORYTITLE">
+            <Text>A Fallen Capital</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1011A_COMPLETION">
+            <Text>Troops march in as you topple the Assyrian Capital. As plans to assimilate the new citizens are laid out a fight breaks out. One general argues that the Assyrians might have some ideas worth borrowing, while another insists that differences must be ironed out to ensure cohesion.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1011B_NAME">
+            <Text>Let us learn from our walls.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1011B_DESCRIPTION">
+            <Text>Unlock a unique Assyrian Tradition, {LOC_TRADITION_DURANI_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1011C_NAME">
+            <Text>Commissiom more places to showcase our empire's knowlege.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1011C_DESCRIPTION">
+            <Text>Unlock a unique Assyrian Tradition, {LOC_TRADITION_MIHISTU_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1011D_NAME">
+            <Text>Subjugated people's must work longer to harvest more food.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1011D_DESCRIPTION">
+            <Text>Unlock a unique Assyrian Tradition, {LOC_TRADITION_GIRRU_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1011E_NAME">
+            <Text>Send the first general back to the field.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1011E_DESCRIPTION">
+            <Text>Free Promotion on a Commander.</Text>
+        </Row>
+    </EnglishText>
+</Database>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Row Tag="LOC_CCNE2011A_STORYTITLE">
+            <Text>A Fallen Capital</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2011A_COMPLETION">
+            <Text>Troops march in as you topple the Bulgarian Capital. As plans to assimilate the new citizens are laid out a fight breaks out. One general argues that the Bulgarians might have some ideas worth borrowing, while another insists that differences must be ironed out to ensure cohesion.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2011B_NAME">
+            <Text>Pillage the farms.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2011B_DESCRIPTION">
+            <Text>Unlock a unique Bulgarian Tradition, {LOC_TRADITION_FALSE_RETREAT_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2011C_NAME">
+            <Text>Let the people admire the great works of our civilization.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2011C_DESCRIPTION">
+            <Text>Unlock a unique Bulgarian Tradition, {LOC_TRADITION_ICONOLATRY_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2011D_NAME">
+            <Text>Pillaging is a vital war tactic.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2011D_DESCRIPTION">
+            <Text>Unlock a unique Bulgarian Tradition, {LOC_TRADITION_STRATAGEMS_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2011E_NAME">
+            <Text>Send the first general back to the field.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2011E_DESCRIPTION">
+            <Text>Free Promotion on a Commander.</Text>
+        </Row>
+    </EnglishText>
+</Database>

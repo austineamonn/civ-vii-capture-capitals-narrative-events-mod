@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Row Tag="LOC_CCNE3012A_STORYTITLE">
+            <Text>A Fallen Capital</Text>
+        </Row>
+        <Row Tag="LOC_CCNE3012A_COMPLETION">
+            <Text>Troops march in as you topple the British Capital. As plans to assimilate the new citizens are laid out a fight breaks out. One general argues that the British might have some ideas worth borrowing, while another insists that differences must be ironed out to ensure cohesion.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE3012B_NAME">
+            <Text>More resources and artwork will help our cities thrive.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE3012B_DESCRIPTION">
+            <Text>Unlock a unique British Tradition, {LOC_TRADITION_PROCEEDINGS_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE3012C_NAME">
+            <Text>Hike towns taxes.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE3012C_DESCRIPTION">
+            <Text>Unlock a unique British Tradition, {LOC_TRADITION_EAST_INDIA_COMPANY_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE3012D_NAME">
+            <Text>Invest in towns, despite the cost to the capital.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE3012D_DESCRIPTION">
+            <Text>Unlock a unique British Tradition, {LOC_TRADITION_NO_ETERNAL_ALLIES_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE3012E_NAME">
+            <Text>Send the first general back to the field.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE3012E_DESCRIPTION">
+            <Text>Free Promotion on a Commander.</Text>
+        </Row>
+    </EnglishText>
+</Database>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Row Tag="LOC_CCNE2012A_STORYTITLE">
+            <Text>A Fallen Capital</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2012A_COMPLETION">
+            <Text>Troops march in as you topple the Shawnee Capital. As plans to assimilate the new citizens are laid out a fight breaks out. One general argues that the Shawnee might have some ideas worth borrowing, while another insists that differences must be ironed out to ensure cohesion.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2012B_NAME">
+            <Text>Give the farmers time off, we can rely on fish for a while.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2012B_DESCRIPTION">
+            <Text>Unlock a unique Shawnee Tradition, {LOC_TRADITION_BREAD_DANCE_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2012C_NAME">
+            <Text>We must influece the City States.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2012C_DESCRIPTION">
+            <Text>Unlock a unique Shawnee Tradition, {LOC_TRADITION_HELIKHILENAWEWIPE_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2012D_NAME">
+            <Text>Write plays about recent natural disasters.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2012D_DESCRIPTION">
+            <Text>Unlock a unique Shawnee Tradition, {LOC_TRADITION_KAKAWFE_PAFKOTAWETA_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2012E_NAME">
+            <Text>Our workers thrive in harsh conditions.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2012E_DESCRIPTION">
+            <Text>Unlock a unique Shawnee Tradition, {LOC_TRADITION_TAKESIYAKE_YEPEPOKI_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2012F_NAME">
+            <Text>Send the first general back to the field.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2012F_DESCRIPTION">
+            <Text>Free Promotion on a Commander.</Text>
+        </Row>
+    </EnglishText>
+</Database>

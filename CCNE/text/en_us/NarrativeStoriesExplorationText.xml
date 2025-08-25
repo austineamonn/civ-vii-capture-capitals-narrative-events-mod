@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Row Tag="LOC_CCNE201A_STORYTITLE">
+            <Text>A Fallen Capital</Text>
+        </Row>
+        <Row Tag="LOC_CCNE201A_COMPLETION">
+            <Text>Troops march in as you topple the Abbasid Capital. As plans to assimilate the new citizens are laid out a fight breaks out. One general argues that the Abbasids might have some ideas worth borrowing, while another insists that differences must be ironed out to ensure cohesion.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE201B_NAME">
+            <Text>City centers are a place of learning.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE201B_DESCRIPTION">
+            <Text>Unlock a unique Abbasid Tradition, {LOC_TRADITION_CITY_OF_PEACE_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE201C_NAME">
+            <Text>Educate the townsfolk.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE201C_DESCRIPTION">
+            <Text>Unlock a unique Abbasid Tradition, {LOC_TRADITION_COMPENDIOUS_BOOK_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE201D_NAME">
+            <Text>Our resources will increase our wealth and knowledge.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE201D_DESCRIPTION">
+            <Text>Unlock a unique Abbasid Tradition, {LOC_TRADITION_SALES_AND_TRADE_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE201E_NAME">
+            <Text>Send the first general back to the field.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE201E_DESCRIPTION">
+            <Text>Free Promotion on a Commander.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE202A_STORYTITLE">
+            <Text>A Fallen Capital</Text>
+        </Row>
+        <Row Tag="LOC_CCNE202A_COMPLETION">
+            <Text>Troops march in as you topple the Chola Capital. As plans to assimilate the new citizens are laid out a fight breaks out. One general argues that the Chola might have some ideas worth borrowing, while another insists that differences must be ironed out to ensure cohesion.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE202B_NAME">
+            <Text>Sponsor local artwork.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE202B_DESCRIPTION">
+            <Text>Unlock a unique Chola Tradition, {LOC_TRADITION_DEVAKOSHTA_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE202C_NAME">
+            <Text>Cut shipbuilding costs.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE202C_DESCRIPTION">
+            <Text>Unlock a unique Chola Tradition, {LOC_TRADITION_MARAKKALAM_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE202D_NAME">
+            <Text>Tax distant ports.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE202D_DESCRIPTION">
+            <Text>Unlock a unique Chola Tradition, {LOC_TRADITION_ANGADI_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE202E_NAME">
+            <Text>Send the first general back to the field.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE202E_DESCRIPTION">
+            <Text>Free Promotion on a Commander.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE203A_STORYTITLE">
+            <Text>A Fallen Capital</Text>
+        </Row>
+        <Row Tag="LOC_CCNE203A_COMPLETION">
+            <Text>Troops march in as you topple the Hawaiian Capital. As plans to assimilate the new citizens are laid out a fight breaks out. One general argues that the Hawaiians might have some ideas worth borrowing, while another insists that differences must be ironed out to ensure cohesion.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE203B_NAME">
+            <Text>Build more pavillions.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE203B_DESCRIPTION">
+            <Text>Unlock a unique Hawaiian Tradition, {LOC_TRADITION_KAPA_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE203C_NAME">
+            <Text>Feed the theatergoers.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE203C_DESCRIPTION">
+            <Text>Unlock a unique Hawaiian Tradition, {LOC_TRADITION_AHUPUA_A_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE203D_NAME">
+            <Text>Let the ocean inspire us.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE203D_DESCRIPTION">
+            <Text>Unlock a unique Hawaiian Tradition, {LOC_TRADITION_HO_OKUPU_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE203E_NAME">
+            <Text>Send the first general back to the field.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE203E_DESCRIPTION">
+            <Text>Free Promotion on a Commander.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE204A_STORYTITLE">
+            <Text>A Fallen Capital</Text>
+        </Row>
+        <Row Tag="LOC_CCNE204A_COMPLETION">
+            <Text>Troops march in as you topple the Incan Capital. As plans to assimilate the new citizens are laid out a fight breaks out. One general argues that the Incans might have some ideas worth borrowing, while another insists that differences must be ironed out to ensure cohesion.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE204B_NAME">
+            <Text>Increase the wheat tax.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE204B_DESCRIPTION">
+            <Text>Unlock a unique Incan Tradition, {LOC_TRADITION_QUALLQA_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE204C_NAME">
+            <Text>Tax the nobles and work the peasants.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE204C_DESCRIPTION">
+            <Text>Unlock a unique Incan Tradition, {LOC_TRADITION_QUIPU_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE204D_NAME">
+            <Text>The mountains will feed us.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE204D_DESCRIPTION">
+            <Text>Unlock a unique Incan Tradition, {LOC_TRADITION_TIRAKUNA_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE204E_NAME">
+            <Text>Send the first general back to the field.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE204E_DESCRIPTION">
+            <Text>Free Promotion on a Commander.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE205A_STORYTITLE">
+            <Text>A Fallen Capital</Text>
+        </Row>
+        <Row Tag="LOC_CCNE205A_COMPLETION">
+            <Text>Troops march in as you topple the Majapahit Capital. As plans to assimilate the new citizens are laid out a fight breaks out. One general argues that the Majapahit Citizens might have some ideas worth borrowing, while another insists that differences must be ironed out to ensure cohesion.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE205B_NAME">
+            <Text>Send artwork to distant city dwellers.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE205B_DESCRIPTION">
+            <Text>Unlock a unique Majapahit Tradition, {LOC_TRADITION_PANJI_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE205C_NAME">
+            <Text>Free lunches for city workers.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE205C_DESCRIPTION">
+            <Text>Unlock a unique Majapahit Tradition, {LOC_TRADITION_NEGARAKERTAGAMA_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE205D_NAME">
+            <Text>Celebrate our city fisherfolk.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE205D_DESCRIPTION">
+            <Text>Unlock a unique Majapahit Tradition, {LOC_TRADITION_SUBAK_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE205E_NAME">
+            <Text>Send the first general back to the field.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE205E_DESCRIPTION">
+            <Text>Free Promotion on a Commander.</Text>
+        </Row>
+        
+        <Row Tag="LOC_CCNE206A_STORYTITLE">
+            <Text>A Fallen Capital</Text>
+        </Row>
+        <Row Tag="LOC_CCNE206A_COMPLETION">
+            <Text>Troops march in as you topple the Ming Capital. As plans to assimilate the new citizens are laid out a fight breaks out. One general argues that the Ming Citizens might have some ideas worth borrowing, while another insists that differences must be ironed out to ensure cohesion.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE206B_NAME">
+            <Text>Educate the city folk.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE206B_DESCRIPTION">
+            <Text>Unlock a unique Ming Tradition, {LOC_TRADITION_BAOJIA_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE206C_NAME">
+            <Text>Educate the city guard.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE206C_DESCRIPTION">
+            <Text>Unlock a unique Ming Tradition, {LOC_TRADITION_DIVINE_ENGINE_DIVISION_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE206D_NAME">
+            <Text>Tax the educated to fund education.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE206D_DESCRIPTION">
+            <Text>Unlock a unique Ming Tradition, {LOC_TRADITION_GRAND_SECRETARIAT_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE206E_NAME">
+            <Text>Send the first general back to the field.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE206E_DESCRIPTION">
+            <Text>Free Promotion on a Commander.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE207A_STORYTITLE">
+            <Text>A Fallen Capital</Text>
+        </Row>
+        <Row Tag="LOC_CCNE207A_COMPLETION">
+            <Text>Troops march in as you topple the Mongolian Capital. As plans to assimilate the new citizens are laid out a fight breaks out. One general argues that the Mongols might have some ideas worth borrowing, while another insists that differences must be ironed out to ensure cohesion.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE207B_NAME">
+            <Text>More weapons for the cavalry.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE207B_DESCRIPTION">
+            <Text>Unlock a unique Mongolian Tradition, {LOC_TRADITION_BAGHATUR_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE207C_NAME">
+            <Text>Well resourced people assimilate better.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE207C_DESCRIPTION">
+            <Text>Unlock a unique Mongolian Tradition, {LOC_TRADITION_GEREGE_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE207D_NAME">
+            <Text>Conquered people must work more.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE207D_DESCRIPTION">
+            <Text>Unlock a unique Mongolian Tradition, {LOC_TRADITION_JARLIG_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE207E_NAME">
+            <Text>Send the first general back to the field.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE207E_DESCRIPTION">
+            <Text>Free Promotion on a Commander.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE208A_STORYTITLE">
+            <Text>A Fallen Capital</Text>
+        </Row>
+        <Row Tag="LOC_CCNE208A_COMPLETION">
+            <Text>Troops march in as you topple the Norman Capital. As plans to assimilate the new citizens are laid out a fight breaks out. One general argues that the Norman citizens might have some ideas worth borrowing, while another insists that differences must be ironed out to ensure cohesion.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE208B_NAME">
+            <Text>Increase propoganda in conquered cities.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE208B_DESCRIPTION">
+            <Text>Unlock a unique Norman Tradition, {LOC_TRADITION_BAYEUX_TAPESTRY_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE208C_NAME">
+            <Text>Comission art in traditional styles.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE208C_DESCRIPTION">
+            <Text>Unlock a unique Norman Tradition, {LOC_TRADITION_FAMILIA_REGIS_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE208D_NAME">
+            <Text>Celebrate local and national rulers.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE208D_DESCRIPTION">
+            <Text>Unlock a unique Norman Tradition, {LOC_TRADITION_JURE_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE208E_NAME">
+            <Text>Build more walls.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE208E_DESCRIPTION">
+            <Text>Unlock a unique Norman Tradition, {LOC_TRADITION_PALISADING_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE208F_NAME">
+            <Text>Invest in horse armor.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE208F_DESCRIPTION">
+            <Text>Unlock a unique Norman Tradition, {LOC_TRADITION_SERVITIUM_DEBITUM_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE208G_NAME">
+            <Text>Send the first general back to the field.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE208G_DESCRIPTION">
+            <Text>Free Promotion on a Commander.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE209A_STORYTITLE">
+            <Text>A Fallen Capital</Text>
+        </Row>
+        <Row Tag="LOC_CCNE209A_COMPLETION">
+            <Text>Troops march in as you topple the Songhai Capital. As plans to assimilate the new citizens are laid out a fight breaks out. One general argues that the Songhai citizens might have some ideas worth borrowing, while another insists that differences must be ironed out to ensure cohesion.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE209B_NAME">
+            <Text>The rivers grant us speed.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE209B_DESCRIPTION">
+            <Text>Unlock a unique Songhai Tradition, {LOC_TRADITION_ISA_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE209C_NAME">
+            <Text>Let local banks tax the mines.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE209C_DESCRIPTION">
+            <Text>Unlock a unique Songhai Tradition, {LOC_TRADITION_TIMBUKTU_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE209D_NAME">
+            <Text>Sponsor guildhall construction.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE209D_DESCRIPTION">
+            <Text>Unlock a unique Songhai Tradition, {LOC_TRADITION_MUD_BRICK_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE209E_NAME">
+            <Text>Send the first general back to the field.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE209E_DESCRIPTION">
+            <Text>Free Promotion on a Commander.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2010A_STORYTITLE">
+            <Text>A Fallen Capital</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2010A_COMPLETION">
+            <Text>Troops march in as you topple the Spanish Capital. As plans to assimilate the new citizens are laid out a fight breaks out. One general argues that the Spaniards might have some ideas worth borrowing, while another insists that differences must be ironed out to ensure cohesion.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2010B_NAME">
+            <Text>Send armor to colonial troops.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2010B_DESCRIPTION">
+            <Text>Unlock a unique Spanish Tradition, {LOC_TRADITION_CONQUISTA_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2010C_NAME">
+            <Text>Our resources will bring us wealth.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2010C_DESCRIPTION">
+            <Text>Unlock a unique Spanish Tradition, {LOC_TRADITION_CERRO_RICO_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2010D_NAME">
+            <Text>Focus on our powerful navy.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2010D_DESCRIPTION">
+            <Text>Unlock a unique Spanish Tradition, {LOC_TRADITION_GREAT_AND_MOST_FORTUNATE_NAVY_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2010E_NAME">
+            <Text>Send the first general back to the field.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2010E_DESCRIPTION">
+            <Text>Free Promotion on a Commander.</Text>
+        </Row>
+    </EnglishText>
+</Database>

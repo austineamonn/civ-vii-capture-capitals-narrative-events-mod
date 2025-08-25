@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+
+    <!-- Modifiers -->
+
+    <!-- Abbasid -->
+    <Modifier id="CCNE201B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_CITY_OF_PEACE</Argument>
+	</Modifier>
+    <Modifier id="CCNE201C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_COMPENDIOUS_BOOK</Argument>
+	</Modifier>
+    <Modifier id="CCNE201D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_SALES_AND_TRADE</Argument>
+	</Modifier>
+    <Modifier id="CCNE201E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="true" permanent="true">
+        <Argument name="Amount">1</Argument>
+    </Modifier>
+    <!-- Chola -->
+    <Modifier id="CCNE202B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_DEVAKOSHTA</Argument>
+	</Modifier>
+    <Modifier id="CCNE202C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_MARAKKALAM</Argument>
+	</Modifier>
+    <Modifier id="CCNE202D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_ANGADI</Argument>
+	</Modifier>
+    <Modifier id="CCNE202E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="true" permanent="true">
+        <Argument name="Amount">1</Argument>
+    </Modifier>
+    <!-- Hawaii -->
+    <Modifier id="CCNE203B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_KAPA</Argument>
+	</Modifier>
+    <Modifier id="CCNE203C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_AHUPUA_A</Argument>
+	</Modifier>
+    <Modifier id="CCNE203D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_HO_OKUPU</Argument>
+	</Modifier>
+    <Modifier id="CCNE203E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="true" permanent="true">
+        <Argument name="Amount">1</Argument>
+    </Modifier>
+    <!-- Inca -->
+    <Modifier id="CCNE204B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_QUALLQA</Argument>
+	</Modifier>
+    <Modifier id="CCNE204C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_QUIPU</Argument>
+	</Modifier>
+    <Modifier id="CCNE204D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_TIRAKUNA</Argument>
+	</Modifier>
+    <Modifier id="CCNE204E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="true" permanent="true">
+        <Argument name="Amount">1</Argument>
+    </Modifier>
+    <!-- Majapahit -->
+    <Modifier id="CCNE205B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_PANJI</Argument>
+	</Modifier>
+    <Modifier id="CCNE205C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_NEGARAKERTAGAMA</Argument>
+	</Modifier>
+    <Modifier id="CCNE205D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_SUBAK</Argument>
+	</Modifier>
+    <Modifier id="CCNE205E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="true" permanent="true">
+        <Argument name="Amount">1</Argument>
+    </Modifier>
+    <!-- Ming -->
+    <Modifier id="CCNE206B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_BAOJIA</Argument>
+	</Modifier>
+    <Modifier id="CCNE206C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_DIVINE_ENGINE_DIVISION</Argument>
+	</Modifier>
+    <Modifier id="CCNE206D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_GRAND_SECRETARIAT</Argument>
+	</Modifier>
+    <Modifier id="CCNE206E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="true" permanent="true">
+        <Argument name="Amount">1</Argument>
+    </Modifier>
+    <!-- Mongolia -->
+    <Modifier id="CCNE207B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_BAGHATUR</Argument>
+	</Modifier>
+    <Modifier id="CCNE207C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_GEREGE</Argument>
+	</Modifier>
+    <Modifier id="CCNE207D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_JARLIG</Argument>
+	</Modifier>
+    <Modifier id="CCNE207E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="true" permanent="true">
+        <Argument name="Amount">1</Argument>
+    </Modifier>
+    <!-- Norman -->
+    <Modifier id="CCNE208B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_BAYEUX_TAPESTRY</Argument>
+	</Modifier>
+    <Modifier id="CCNE208C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_FAMILIA_REGIS</Argument>
+	</Modifier>
+    <Modifier id="CCNE208D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_JURE</Argument>
+	</Modifier>
+    <Modifier id="CCNE208E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_PALISADING</Argument>
+	</Modifier>
+    <Modifier id="CCNE208F_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_SERVITIUM_DEBITUM</Argument>
+	</Modifier>
+    <Modifier id="CCNE208G_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="true" permanent="true">
+        <Argument name="Amount">1</Argument>
+    </Modifier>
+    <!-- Songhai -->
+    <Modifier id="CCNE209B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_ISA</Argument>
+	</Modifier>
+    <Modifier id="CCNE209C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_TIMBUKTU</Argument>
+	</Modifier>
+    <Modifier id="CCNE209D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_MUD_BRICK</Argument>
+	</Modifier>
+    <Modifier id="CCNE209E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="true" permanent="true">
+        <Argument name="Amount">1</Argument>
+    </Modifier>
+    <!-- Spain -->
+    <Modifier id="CCNE2010B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_CONQUISTA</Argument>
+	</Modifier>
+    <Modifier id="CCNE2010C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_CERRO_RICO</Argument>
+	</Modifier>
+    <Modifier id="CCNE2010D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_GREAT_AND_MOST_FORTUNATE_NAVY</Argument>
+	</Modifier>
+    <Modifier id="CCNE2010E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="true" permanent="true">
+        <Argument name="Amount">1</Argument>
+    </Modifier>
+
+    <!-- Requirements and Requirement Sets -->
+
+    <RequirementSet id="REQSET_CCNE201A_NARRATIVE">
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONQUER_CITY01</Argument>
+            <Argument name="GOSSIP_CONQUER_CITY01">Hash,IsCapital,True,Hash,OtherPlayer,Other,Hash,Civilization,CIVILIZATION_ABBASID</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CCNE202A_NARRATIVE">
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONQUER_CITY01</Argument>
+            <Argument name="GOSSIP_CONQUER_CITY01">Hash,IsCapital,True,Hash,OtherPlayer,Other,Hash,Civilization,CIVILIZATION_CHOLA</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CCNE203A_NARRATIVE">
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONQUER_CITY01</Argument>
+            <Argument name="GOSSIP_CONQUER_CITY01">Hash,IsCapital,True,Hash,OtherPlayer,Other,Hash,Civilization,CIVILIZATION_HAWAII</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CCNE204A_NARRATIVE">
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONQUER_CITY01</Argument>
+            <Argument name="GOSSIP_CONQUER_CITY01">Hash,IsCapital,True,Hash,OtherPlayer,Other,Hash,Civilization,CIVILIZATION_INCA</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CCNE205A_NARRATIVE">
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONQUER_CITY01</Argument>
+            <Argument name="GOSSIP_CONQUER_CITY01">Hash,IsCapital,True,Hash,OtherPlayer,Other,Hash,Civilization,CIVILIZATION_MAJAPAHIT</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CCNE206A_NARRATIVE">
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONQUER_CITY01</Argument>
+            <Argument name="GOSSIP_CONQUER_CITY01">Hash,IsCapital,True,Hash,OtherPlayer,Other,Hash,Civilization,CIVILIZATION_MING</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CCNE207A_NARRATIVE">
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONQUER_CITY01</Argument>
+            <Argument name="GOSSIP_CONQUER_CITY01">Hash,IsCapital,True,Hash,OtherPlayer,Other,Hash,Civilization,CIVILIZATION_MONGOLIA</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CCNE208A_NARRATIVE">
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONQUER_CITY01</Argument>
+            <Argument name="GOSSIP_CONQUER_CITY01">Hash,IsCapital,True,Hash,OtherPlayer,Other,Hash,Civilization,CIVILIZATION_NORMAN</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CCNE209A_NARRATIVE">
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONQUER_CITY01</Argument>
+            <Argument name="GOSSIP_CONQUER_CITY01">Hash,IsCapital,True,Hash,OtherPlayer,Other,Hash,Civilization,CIVILIZATION_SONGHAI</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CCNE2010A_NARRATIVE">
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONQUER_CITY01</Argument>
+            <Argument name="GOSSIP_CONQUER_CITY01">Hash,IsCapital,True,Hash,OtherPlayer,Other,Hash,Civilization,CIVILIZATION_SPAIN</Argument>
+        </Requirement>
+    </RequirementSet>
+</GameEffects>

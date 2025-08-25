@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Row Tag="LOC_CCNE1012A_STORYTITLE">
+            <Text>A Fallen Capital</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1012A_COMPLETION">
+            <Text>Troops march in as you topple the Carthaginian Capital. As plans to assimilate the new citizens are laid out a fight breaks out. One general argues that the Carthaginians might have some ideas worth borrowing, while another insists that differences must be ironed out to ensure cohesion.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1012B_NAME">
+            <Text>Focus on building on the coastline.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1012B_DESCRIPTION">
+            <Text>Unlock a unique Carthaginian Tradition, {LOC_TRADITION_GAULOS_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1012C_NAME">
+            <Text>Build more ships.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1012C_DESCRIPTION">
+            <Text>Unlock a unique Carthaginian Tradition, {LOC_TRADITION_QUINQUEREME_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1012D_NAME">
+            <Text>Increase mining and farming quotas.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1012D_DESCRIPTION">
+            <Text>Unlock a unique Carthaginian Tradition, {LOC_TRADITION_SUFFETES_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1012E_NAME">
+            <Text>Send the first general back to the field.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1012E_DESCRIPTION">
+            <Text>Free Promotion on a Commander.</Text>
+        </Row>
+    </EnglishText>
+</Database>

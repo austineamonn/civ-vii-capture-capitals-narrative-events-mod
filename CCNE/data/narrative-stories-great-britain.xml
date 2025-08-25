@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <Types>
+        <Row Type="CCNE3012A" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CCNE3012B" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CCNE3012C" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CCNE3012D" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CCNE3012E" Kind="KIND_NARRATIVE_STORY"/>
+    </Types>
+    <NarrativeStories>
+        <Row NarrativeStoryType="CCNE3012A" Name="LOC_CCNE3012A_NAME" Description="LOC_CCNE3012A_DESCRIPTION" Completion="LOC_CCNE3012A_COMPLETION" StoryTitle="LOC_CCNE3012A_STORYTITLE" Age="AGE_EXPLORATION" Activation="AUTO" RequirementSetId="REQSET_CCNE3012A_NARRATIVE" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CCNE3012B" Name="LOC_CCNE3012B_NAME" Description="LOC_CCNE3012B_DESCRIPTION" Completion="LOC_CCNE3012B_COMPLETION" Age="AGE_EXPLORATION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met"/>
+        <Row NarrativeStoryType="CCNE3012C" Name="LOC_CCNE3012C_NAME" Description="LOC_CCNE3012C_DESCRIPTION" Completion="LOC_CCNE3012C_COMPLETION" Age="AGE_EXPLORATION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met"/>
+        <Row NarrativeStoryType="CCNE3012D" Name="LOC_CCNE3012D_NAME" Description="LOC_CCNE3012D_DESCRIPTION" Completion="LOC_CCNE3012D_COMPLETION" Age="AGE_EXPLORATION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met"/>
+        <Row NarrativeStoryType="CCNE3012E" Name="LOC_CCNE3012E_NAME" Description="LOC_CCNE3012E_DESCRIPTION" Completion="LOC_CCNE3012E_COMPLETION" Age="AGE_EXPLORATION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met"/>
+    </NarrativeStories>
+    <NarrativeRewards>
+        <Row NarrativeRewardType="CCNE3012B_REWARD" ModifierID="CCNE3012B_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="CCNE3012C_REWARD" ModifierID="CCNE3012C_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="CCNE3012D_REWARD" ModifierID="CCNE3012D_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="CCNE3012E_REWARD" ModifierID="CCNE3012E_NARRATIVE_MODIFIER"/>
+    </NarrativeRewards>
+    <NarrativeStory_Rewards>
+        <Row NarrativeStoryType="CCNE3012B" NarrativeRewardType="CCNE3012B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE3012C" NarrativeRewardType="CCNE3012C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE3012D" NarrativeRewardType="CCNE3012D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE3012E" NarrativeRewardType="CCNE3012E_REWARD" Activation="START"/>
+    </NarrativeStory_Rewards>
+    <NarrativeRewardIcons>
+        <Row NarrativeStoryType="CCNE3012B" RewardIconType="TRADITION_SLOT"/>
+        <Row NarrativeStoryType="CCNE3012C" RewardIconType="TRADITION_SLOT"/>
+        <Row NarrativeStoryType="CCNE3012D" RewardIconType="TRADITION_SLOT"/>
+        <Row NarrativeStoryType="CCNE3012E" RewardIconType="PROMOTION"/>
+    </NarrativeRewardIcons>
+    <NarrativeStory_TextReplacements>
+        <Row NarrativeStoryType="CCNE3012B" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="CCNE3012C" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="CCNE3012D" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="CCNE3012E" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+    </NarrativeStory_TextReplacements>
+    <NarrativeStory_Links>
+        <Row FromNarrativeStoryType="CCNE3012A" ToNarrativeStoryType="CCNE3012B" Priority="0" Name="LOC_CCNE3012B_NAME" Description="LOC_CCNE3012B_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="CCNE3012A" ToNarrativeStoryType="CCNE3012C" Priority="1" Name="LOC_CCNE3012C_NAME" Description="LOC_CCNE3012C_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="CCNE3012A" ToNarrativeStoryType="CCNE3012D" Priority="1" Name="LOC_CCNE3012D_NAME" Description="LOC_CCNE3012D_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="CCNE3012A" ToNarrativeStoryType="CCNE3012E" Priority="1" Name="LOC_CCNE3012E_NAME" Description="LOC_CCNE3012E_DESCRIPTION"/>
+    </NarrativeStory_Links>
+</Database>

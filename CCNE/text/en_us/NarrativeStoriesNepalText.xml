@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Row Tag="LOC_CCNE3013A_STORYTITLE">
+            <Text>A Fallen Capital</Text>
+        </Row>
+        <Row Tag="LOC_CCNE3013A_COMPLETION">
+            <Text>Troops march in as you topple the Nepalese Capital. As plans to assimilate the new citizens are laid out a fight breaks out. One general argues that the Nepalese might have some ideas worth borrowing, while another insists that differences must be ironed out to ensure cohesion.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE3013B_NAME">
+            <Text>Our mountains inspire us.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE3013B_DESCRIPTION">
+            <Text>Unlock a unique Nepalese Tradition, {LOC_TRADITION_HIMAL_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE3013C_NAME">
+            <Text>Despite our size, we invest in allies.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE3013C_DESCRIPTION">
+            <Text>Unlock a unique Nepalese Tradition, {LOC_TRADITION_MAITRI_SANADHI_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE3013D_NAME">
+            <Text>Our mountains grant our troops strength.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE3013D_DESCRIPTION">
+            <Text>Unlock a unique Nepalese Tradition, {LOC_TRADITION_TUNDIKHEL_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE3013E_NAME">
+            <Text>Send the first general back to the field.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE3013E_DESCRIPTION">
+            <Text>Free Promotion on a Commander.</Text>
+        </Row>
+    </EnglishText>
+</Database>

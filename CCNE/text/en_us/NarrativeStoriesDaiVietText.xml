@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Row Tag="LOC_CCNE2012A_STORYTITLE">
+            <Text>A Fallen Capital</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2012A_COMPLETION">
+            <Text>Troops march in as you topple the Đại Việt Capital. As plans to assimilate the new citizens are laid out a fight breaks out. One general argues that the Vietnamese might have some ideas worth borrowing, while another insists that differences must be ironed out to ensure cohesion.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2012B_NAME">
+            <Text>Increase the wages of the city guards.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2012B_DESCRIPTION">
+            <Text>Unlock a unique Vietnamese Tradition, {LOC_TRADITION_CAM_BINH_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2012C_NAME">
+            <Text>Celebrate the art of cooking.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2012C_DESCRIPTION">
+            <Text>Unlock a unique Vietnamese Tradition, {LOC_TRADITION_CON_KENH_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2012D_NAME">
+            <Text>Send additional food to the townsfolk.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2012D_DESCRIPTION">
+            <Text>Unlock a unique Vietnamese Tradition, {LOC_TRADITION_RUONG_LANG_XA_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2012E_NAME">
+            <Text>Send the first general back to the field.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2012E_DESCRIPTION">
+            <Text>Free Promotion on a Commander.</Text>
+        </Row>
+    </EnglishText>
+</Database>
