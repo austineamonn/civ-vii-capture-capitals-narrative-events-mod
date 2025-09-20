@@ -4,25 +4,25 @@
     <!-- Modifiers -->
 
     <!-- Shawnee -->
-    <Modifier id="CCNE2012B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+    <Modifier id="CCNE2013B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
 		<Argument name="Tradition">TRADITION_BREAD_DANCE</Argument>
 	</Modifier>
-    <Modifier id="CCNE2012C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+    <Modifier id="CCNE2013C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
 		<Argument name="Tradition">TRADITION_HELIKHILENAWEWIPE</Argument>
 	</Modifier>
-    <Modifier id="CCNE2012D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+    <Modifier id="CCNE2013D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
 		<Argument name="Tradition">TRADITION_KAKAWFE_PAFKOTAWETA</Argument>
 	</Modifier>
-    <Modifier id="CCNE2012E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+    <Modifier id="CCNE2013E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
 		<Argument name="Tradition">TRADITION_TAKESIYAKE_YEPEPOKI</Argument>
 	</Modifier>
-    <Modifier id="CCNE2012F_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="true" permanent="true">
+    <Modifier id="CCNE2013F_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="true" permanent="true">
         <Argument name="Amount">1</Argument>
     </Modifier>
 
     <!-- Requirements and Requirement Sets -->
 
-    <RequirementSet id="REQSET_CCNE2012A_NARRATIVE">
+    <RequirementSet id="REQSET_CCNE2013A_NARRATIVE">
         <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
             <Argument name="GossipTypes">GOSSIP_CONQUER_CITY01</Argument>
             <Argument name="GOSSIP_CONQUER_CITY01">Hash,IsCapital,True,Hash,OtherPlayer,Other,Hash,Civilization,CIVILIZATION_SHAWNEE</Argument>

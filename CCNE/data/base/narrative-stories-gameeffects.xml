@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+
+    <!-- Modifiers -->
+
+    <!-- Aksum -->
+    <!--<Modifier id="MOD_RETAIN_TRADITIONS_CCNE101B" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true" >
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE101B</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
+        <Argument name="Tradition">TRADITION_PORT_OF_NATIONS</Argument>
+    </Modifier>-->
+
+    <!-- Requirements and Requirement Sets -->
+    <!-- Ensure event occurs turn one -->
+    <RequirementSet id="REQSET_RETAIN_TRADITIONS">
+    	<Requirement type="REQUIREMENT_REQUIREMENTSET_IS_MET">
+            <Argument name="RequirementSetId">SUBREQSET_RETAIN_TRADITIONS</Argument>
+        </Requirement>
+        <Requirement type="REQUIREMENT_GAME_TURN_IS_X_NARRATIVE">
+            <Argument name="AfterTurn">1</Argument>
+        </Requirement>
+    </RequirementSet>
+
+    <!-- Ensure proper age -->
+    <RequirementSet id="SUBREQSET_RETAIN_TRADITIONS" type="REQUIREMENTSET_TEST_ANY">
+    	<Requirement type="REQUIREMENT_REQUIREMENTSET_IS_MET">
+            <Argument name="RequirementSetId">SUBREQSET_CHECK_EXP</Argument>
+        </Requirement>
+        <Requirement type="REQUIREMENT_REQUIREMENTSET_IS_MET">
+            <Argument name="RequirementSetId">SUBREQSET_CHECK_MOD</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="SUBREQSET_CHECK_ANT">
+        <Requirement type="REQUIREMENT_GAME_AGE_TYPE_MATCH">
+            <Argument name="AgeType">AGE_ANTIQUITY</Argument>
+        </Requirement>
+        <Requirement type="REQUIREMENT_IS_AGE_COUNT">
+            <Argument name="AgeCount">1</Argument>
+        </Requirement>
+	</RequirementSet>
+    <RequirementSet id="SUBREQSET_CHECK_EXP">
+        <Requirement type="REQUIREMENT_GAME_AGE_TYPE_MATCH">
+            <Argument name="AgeType">AGE_EXPLORATION</Argument>
+        </Requirement>
+        <Requirement type="REQUIREMENT_IS_AGE_COUNT">
+            <Argument name="AgeCount">2</Argument>
+        </Requirement>
+	</RequirementSet>
+    <RequirementSet id="SUBREQSET_CHECK_MOD">
+        <Requirement type="REQUIREMENT_GAME_AGE_TYPE_MATCH">
+            <Argument name="AgeType">AGE_MODERN</Argument>
+        </Requirement>
+        <Requirement type="REQUIREMENT_IS_AGE_COUNT">
+            <Argument name="AgeCount">3</Argument>
+        </Requirement>
+	</RequirementSet>  
+</GameEffects>

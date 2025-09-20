@@ -4,9 +4,22 @@
     <!-- Modifiers -->
 
     <!-- Aksum -->
-    <Modifier id="CCNE101B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+    <!--<Modifier id="CCNE101B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+		<Argument name="Tradition">TRADITION_PORT_OF_NATIONS</Argument>
+	</Modifier>-->
+    <Modifier id="CCNE101B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE101B</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_PORT_OF_NATIONS</Argument>
 	</Modifier>
+    <Modifier id="CCNE101B_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE101B</Argument>
+    </Modifier>
     <Modifier id="CCNE101C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
 		<Argument name="Tradition">TRADITION_THRONE_OF_MY_FATHERS</Argument>
 	</Modifier>
@@ -148,12 +161,20 @@
 
     <!-- Requirements and Requirement Sets -->
 
+    <!-- Simple Requirement Set for Testing -->
     <RequirementSet id="REQSET_CCNE101A_NARRATIVE">
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01</Argument>
+            <Argument name="GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01">Hash,ProgressionTreeNodeType,NODE_TECH_AQ_AGRICULTURE,Numeric,TreeDepth,1</Argument>
+        </Requirement>
+    </RequirementSet>
+
+    <!--<RequirementSet id="REQSET_CCNE101A_NARRATIVE">
         <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
             <Argument name="GossipTypes">GOSSIP_CONQUER_CITY01</Argument>
             <Argument name="GOSSIP_CONQUER_CITY01">Hash,IsCapital,True,Hash,OtherPlayer,Other,Hash,Civilization,CIVILIZATION_AKSUM</Argument>
         </Requirement>
-    </RequirementSet>
+    </RequirementSet>-->
     <RequirementSet id="REQSET_CCNE102A_NARRATIVE">
         <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
             <Argument name="GossipTypes">GOSSIP_CONQUER_CITY01</Argument>

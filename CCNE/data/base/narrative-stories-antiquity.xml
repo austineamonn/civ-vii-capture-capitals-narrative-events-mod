@@ -113,6 +113,7 @@
         <Row NarrativeStoryType="CCNE1010F" Name="LOC_CCNE1010F_NAME" Description="LOC_CCNE1010F_DESCRIPTION" Completion="LOC_CCNE1010F_COMPLETION" Age="AGE_ANTIQUITY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met"/>
     </NarrativeStories>
     <NarrativeRewards>
+        <Row NarrativeRewardType="CCNE101B_REWARD_TAG" ModifierID="CCNE101B_NARRATIVE_MODIFIER_TAG"/>
         <Row NarrativeRewardType="CCNE101B_REWARD" ModifierID="CCNE101B_NARRATIVE_MODIFIER"/>
         <Row NarrativeRewardType="CCNE101C_REWARD" ModifierID="CCNE101C_NARRATIVE_MODIFIER"/>
         <Row NarrativeRewardType="CCNE101D_REWARD" ModifierID="CCNE101D_NARRATIVE_MODIFIER"/>
@@ -159,6 +160,7 @@
         <Row NarrativeRewardType="CCNE1010F_REWARD" ModifierID="CCNE1010F_NARRATIVE_MODIFIER"/>
     </NarrativeRewards>
     <NarrativeStory_Rewards>
+        <Row NarrativeStoryType="CCNE101B" NarrativeRewardType="CCNE101B_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE101B" NarrativeRewardType="CCNE101B_REWARD" Activation="START"/>
         <Row NarrativeStoryType="CCNE101C" NarrativeRewardType="CCNE101C_REWARD" Activation="START"/>
         <Row NarrativeStoryType="CCNE101D" NarrativeRewardType="CCNE101D_REWARD" Activation="START"/>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Row Tag="LOC_RETAIN_TRADITIONS_A_STORYTITLE">
+            <Text>Lessons Learned From the Past</Text>
+        </Row>
+        <Row Tag="LOC_RETAIN_TRADITIONS_A_COMPLETION">
+            <Text>Stories of our glorious past continue to be passed down. But we remember more than just the capitals of our enemies that we conquered. Our people continue to use the lessons learned from those we subjugated, for even enemies can teach us valuable lessons.</Text>
+        </Row>
+        <Row Tag="LOC_RETAIN_TRADITIONS_B_NAME">
+            <Text>Our stories carry forth knowledge from the past.</Text>
+        </Row>
+        <Row Tag="LOC_RETAIN_TRADITIONS_B_DESCRIPTION">
+            <Text>Unlock the Traditions from the Civilizations whose capitals you conquered last era.</Text>
+        </Row>
+    </EnglishText>
+</Database>

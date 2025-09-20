@@ -22,15 +22,6 @@
 		<Mod id="shawnee" title="LOC_MODULE_SHAWNEE_TECUMSEH_NAME"/>
 	</References>
 	<ActionCriteria>
-		<Criteria id="antiquity-age-current">
-			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
-		</Criteria>
-		<Criteria id="exploration-age-current">
-			<AgeInUse>AGE_EXPLORATION</AgeInUse>
-		</Criteria>
-		<Criteria id="modern-age-current">
-			<AgeInUse>AGE_MODERN</AgeInUse>
-		</Criteria>
 		<Criteria id="always">
 			<AlwaysMet></AlwaysMet>
 		</Criteria>
@@ -73,8 +64,8 @@
 		<ActionGroup id="base-game-main-assyria" scope="game" criteria="assyria-enable">
 			<Actions>
                 <UpdateDatabase>
-					<Item>data/narrative-stories-assyria.xml</Item>
-					<Item>data/narrative-stories-gameeffects-assyria.xml</Item>
+					<Item>data/DLC/narrative-stories-assyria.xml</Item>
+					<Item>data/DLC/narrative-stories-gameeffects-assyria.xml</Item>
                 </UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/NarrativeStoriesAssyriaText.xml</Item>
@@ -84,8 +75,8 @@
 		<ActionGroup id="base-game-main-bulgaria" scope="game" criteria="bulgaria-enable">
 			<Actions>
                 <UpdateDatabase>
-					<Item>data/narrative-stories-bulgaria.xml</Item>
-					<Item>data/narrative-stories-gameeffects-bulgaria.xml</Item>
+					<Item>data/DLC/narrative-stories-bulgaria.xml</Item>
+					<Item>data/DLC/narrative-stories-gameeffects-bulgaria.xml</Item>
                 </UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/NarrativeStoriesBulgariaText.xml</Item>
@@ -95,8 +86,8 @@
 		<ActionGroup id="base-game-main-carthage" scope="game" criteria="carthage-enable">
 			<Actions>
                 <UpdateDatabase>
-					<Item>data/narrative-stories-carthage.xml</Item>
-					<Item>data/narrative-stories-gameeffects-carthage.xml</Item>
+					<Item>data/DLC/narrative-stories-carthage.xml</Item>
+					<Item>data/DLC/narrative-stories-gameeffects-carthage.xml</Item>
                 </UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/NarrativeStoriesCarthageText.xml</Item>
@@ -106,8 +97,8 @@
 		<ActionGroup id="base-game-main-dai-viet" scope="game" criteria="dai-viet-enable">
 			<Actions>
                 <UpdateDatabase>
-					<Item>data/narrative-stories-dai-viet.xml</Item>
-					<Item>data/narrative-stories-gameeffects-dai-viet.xml</Item>
+					<Item>data/DLC/narrative-stories-dai-viet.xml</Item>
+					<Item>data/DLC/narrative-stories-gameeffects-dai-viet.xml</Item>
                 </UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/NarrativeStoriesDaiVietText.xml</Item>
@@ -117,8 +108,8 @@
 		<ActionGroup id="base-game-main-earth-kingdom" scope="game" criteria="earth-kingdom-enable">
 			<Actions>
                 <UpdateDatabase>
-					<Item>data/narrative-stories-earth-kingdom.xml</Item>
-					<Item>data/narrative-stories-gameeffects-earth-kingdom.xml</Item>
+					<Item>data/custom/narrative-stories-earth-kingdom.xml</Item>
+					<Item>data/custom/narrative-stories-gameeffects-earth-kingdom.xml</Item>
                 </UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/NarrativeStoriesEarthKingdomText.xml</Item>
@@ -128,8 +119,8 @@
 		<ActionGroup id="base-game-main-great-britain" scope="game" criteria="great-britain-enable">
 			<Actions>
                 <UpdateDatabase>
-					<Item>data/narrative-stories-great-britain.xml</Item>
-					<Item>data/narrative-stories-gameeffects-great-britain.xml</Item>
+					<Item>data/DLC/narrative-stories-great-britain.xml</Item>
+					<Item>data/DLC/narrative-stories-gameeffects-great-britain.xml</Item>
                 </UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/NarrativeStoriesGreatBritainText.xml</Item>
@@ -139,8 +130,8 @@
 		<ActionGroup id="base-game-main-nepal" scope="game" criteria="nepal-enable">
 			<Actions>
                 <UpdateDatabase>
-					<Item>data/narrative-stories-nepal.xml</Item>
-					<Item>data/narrative-stories-gameeffects-nepal.xml</Item>
+					<Item>data/DLC/narrative-stories-nepal.xml</Item>
+					<Item>data/DLC/narrative-stories-gameeffects-nepal.xml</Item>
                 </UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/NarrativeStoriesNepalText.xml</Item>
@@ -150,8 +141,8 @@
 		<ActionGroup id="base-game-main-shawnee" scope="game" criteria="shawnee-enable">
 			<Actions>
                 <UpdateDatabase>
-					<Item>data/narrative-stories-shawnee.xml</Item>
-					<Item>data/narrative-stories-gameeffects-shawnee.xml</Item>
+					<Item>data/DLC/narrative-stories-shawnee.xml</Item>
+					<Item>data/DLC/narrative-stories-gameeffects-shawnee.xml</Item>
                 </UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/NarrativeStoriesShawneeText.xml</Item>
@@ -159,35 +150,24 @@
             </Actions>
 		</ActionGroup>
 		<!-- CCNE -->
-		<ActionGroup id="antiquity-age-current-CCNE" scope="game" criteria="antiquity-age-current">
+		<ActionGroup id="base-CCNE" scope="game" criteria="always">
 			<Actions>
 				<UpdateDatabase>
-					<Item>data/narrative-stories-antiquity.xml</Item>
-					<Item>data/narrative-stories-gameeffects-antiquity.xml</Item>
+					<Item>data/base/narrative-stories-antiquity.xml</Item>
+					<Item>data/base/narrative-stories-gameeffects-antiquity.xml</Item>
+					<Item>data/base/narrative-stories-exploration.xml</Item>
+					<Item>data/base/narrative-stories-gameeffects-exploration.xml</Item>
+					<Item>data/base/narrative-stories-modern.xml</Item>
+					<Item>data/base/narrative-stories-gameeffects-modern.xml</Item>
+					<Item>data/base/narrative-stories.xml</Item>
+					<Item>data/base/narrative-stories-gameeffects.xml</Item>
+					<Item>data/base/narrative-tags.xml</Item>
+					<Item>data/base/narrative-tags-gameeffects.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
+					<Item>text/en_us/NarrativeStoriesText.xml</Item>
 					<Item>text/en_us/NarrativeStoriesAntiquityText.xml</Item>
-				</UpdateText>
-			</Actions>
-		</ActionGroup>-->
-		<ActionGroup id="exploration-age-current-CCNE" scope="game" criteria="exploration-age-current">
-			<Actions>
-				<UpdateDatabase>
-					<Item>data/narrative-stories-exploration.xml</Item>
-					<Item>data/narrative-stories-gameeffects-exploration.xml</Item>
-				</UpdateDatabase>
-				<UpdateText>
 					<Item>text/en_us/NarrativeStoriesExplorationText.xml</Item>
-				</UpdateText>
-			</Actions>
-		</ActionGroup>
-		<ActionGroup id="modern-age-current-CCNE" scope="game" criteria="modern-age-current">
-			<Actions>
-				<UpdateDatabase>
-					<Item>data/narrative-stories-modern.xml</Item>
-					<Item>data/narrative-stories-gameeffects-modern.xml</Item>
-				</UpdateDatabase>
-				<UpdateText>
 					<Item>text/en_us/NarrativeStoriesModernText.xml</Item>
 				</UpdateText>
 			</Actions>
@@ -195,6 +175,7 @@
 		<ActionGroup id="shell-CCNE" scope="shell" criteria="always">
 			<Actions>
 				<UpdateText>
+					<Item>text/en_us/NarrativeStoriesText.xml</Item>
 					<Item>text/en_us/NarrativeStoriesAntiquityText.xml</Item>
 					<Item>text/en_us/NarrativeStoriesExplorationText.xml</Item>
 					<Item>text/en_us/NarrativeStoriesModernText.xml</Item>

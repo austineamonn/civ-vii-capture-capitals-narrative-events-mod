@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+    <RequirementSet id="REQSET_CCNE101B" type="REQUIREMENTSET_TEST_ANY">
+    	<Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE101B</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        <Requirement type="REQUIREMENT_REQUIREMENTSET_IS_MET">
+            <Argument name="RequirementSetId">SUBREQSET_CHECK_ANT</Argument>
+        </Requirement>
+    </RequirementSet>
+</GameEffects>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <!-- This Narrative Event will occur at the beginning of the Exploration and Modern Ages to provide the traditions gained from capturing capitals.-->
+    <Types>
+        <Row Type="RETAIN_TRADITIONS_A" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="RETAIN_TRADITIONS_B" Kind="KIND_NARRATIVE_STORY"/>
+    </Types>
+    <NarrativeStories>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_A" Name="LOC_RETAIN_TRADITIONS_A_NAME"
+        Description="LOC_RETAIN_TRADITIONS_A_DESCRIPTION"
+        Completion="LOC_RETAIN_TRADITIONS_A_COMPLETION"  StoryTitle="LOC_RETAIN_TRADITIONS_A_STORYTITLE" Activation="REQUISITE" RequirementSetId="REQSET_RETAIN_TRADITIONS" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" Name="LOC_RETAIN_TRADITIONS_B_NAME" Description="LOC_RETAIN_TRADITIONS_B_DESCRIPTION" Completion="LOC_RETAIN_TRADITIONS_B_COMPLETION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD" />
+    </NarrativeStories>
+    <NarrativeRewards>
+        <!--<Row NarrativeRewardType="MORE_UNLOCK_TRADITION_REWARD_HAN_A_1" ModifierID="MOD_MORE_UNLOCK_TRADITION_HAN_A_1"/>-->
+        <!--all possible mod unlocks-->
+    </NarrativeRewards>
+    <NarrativeStory_Rewards>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE101B_REWARD" Activation="START"/>
+    </NarrativeStory_Rewards>
+    <NarrativeRewardIcons>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" RewardIconType="TRADITION_SLOT"/>
+    </NarrativeRewardIcons>
+    <NarrativeStory_Links>
+        <Row FromNarrativeStoryType="RETAIN_TRADITIONS_A" ToNarrativeStoryType="RETAIN_TRADITIONS_B" Priority="0" Name="LOC_RETAIN_TRADITIONS_B_NAME" Description="LOC_RETAIN_TRADITIONS_B_DESCRIPTION"/>
+    </NarrativeStory_Links>
+</Database>

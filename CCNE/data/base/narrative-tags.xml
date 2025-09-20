@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <Types>
+        <!-- Antiquity Base -->
+        <!-- Aksum -->
+    	<Row Type="NARRATIVE_TAG_CCNE101B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE101C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE101D" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Egypt -->
+    	<Row Type="NARRATIVE_TAG_CCNE102B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE102C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE102D" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Greece -->
+    	<Row Type="NARRATIVE_TAG_CCNE103B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE103C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE103D" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE103E" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Han -->
+    	<Row Type="NARRATIVE_TAG_CCNE104B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE104C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE104D" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Khmer -->
+    	<Row Type="NARRATIVE_TAG_CCNE105B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE105C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE105D" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Maurya -->
+    	<Row Type="NARRATIVE_TAG_CCNE106B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE106C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE106D" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE106E" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Maya -->
+    	<Row Type="NARRATIVE_TAG_CCNE107B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE107C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE107D" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE107E" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Mississipi -->
+    	<Row Type="NARRATIVE_TAG_CCNE108B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE108C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE108D" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Persia -->
+    	<Row Type="NARRATIVE_TAG_CCNE109B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE109C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE109D" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Rome -->
+    	<Row Type="NARRATIVE_TAG_CCNE1010B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE1010C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE1010D" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE1010E" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Antiquity DLC -->
+        <!-- Assyria -->
+        <Row Type="NARRATIVE_TAG_CCNE1011B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE1011C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE1011D" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Carthage -->
+        <Row Type="NARRATIVE_TAG_CCNE1012B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE1012C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE1012D" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Exploration Base -->
+        <!-- Abbasid -->
+    	<Row Type="NARRATIVE_TAG_CCNE201B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE201C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE201D" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Chola -->
+    	<Row Type="NARRATIVE_TAG_CCNE202B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE202C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE202D" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Hawai'i -->
+    	<Row Type="NARRATIVE_TAG_CCNE203B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE203C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE203D" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Inca -->
+    	<Row Type="NARRATIVE_TAG_CCNE204B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE204C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE204D" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Majapahit -->
+    	<Row Type="NARRATIVE_TAG_CCNE205B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE205C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE205D" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Ming -->
+    	<Row Type="NARRATIVE_TAG_CCNE206B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE206C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE206D" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Mongolia -->
+    	<Row Type="NARRATIVE_TAG_CCNE207B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE207C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE207D" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Norman -->
+    	<Row Type="NARRATIVE_TAG_CCNE208B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE208C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE208D" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE208E" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE208F" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Songhai -->
+    	<Row Type="NARRATIVE_TAG_CCNE209B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE209C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE209D" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Spain -->
+    	<Row Type="NARRATIVE_TAG_CCNE2010B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE2010C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE2010D" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Exploration DLC -->
+        <!-- Bulgaria -->
+        <Row Type="NARRATIVE_TAG_CCNE2011B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE2011C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE2011D" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Đại Việt -->
+        <Row Type="NARRATIVE_TAG_CCNE2012B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE2012C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE2012D" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Shawnee -->
+        <Row Type="NARRATIVE_TAG_CCNE2013B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE2013C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE2013D" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE2013E" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Modern Base -->
+        <!-- America -->
+    	<Row Type="NARRATIVE_TAG_CCNE301B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE301C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE301D" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Buganda -->
+    	<Row Type="NARRATIVE_TAG_CCNE302B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE302C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE302D" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- French Empire -->
+    	<Row Type="NARRATIVE_TAG_CCNE303B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE303C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE303D" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE303E" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Meiji -->
+    	<Row Type="NARRATIVE_TAG_CCNE304B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE304C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE304D" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE304E" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Mexico -->
+    	<Row Type="NARRATIVE_TAG_CCNE305B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE305C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE305D" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE305E" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Mughal -->
+    	<Row Type="NARRATIVE_TAG_CCNE306B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE306C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE306D" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE306E" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Prussia -->
+    	<Row Type="NARRATIVE_TAG_CCNE307B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE307C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE307D" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE307E" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Qing -->
+    	<Row Type="NARRATIVE_TAG_CCNE308B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE308C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE308D" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE308E" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Russia -->
+    	<Row Type="NARRATIVE_TAG_CCNE309B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE309C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE309D" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Siam -->
+    	<Row Type="NARRATIVE_TAG_CCNE3010B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE3010C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE3010D" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE3010E" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Modern Custom -->
+        <!-- Earth Kingdom -->
+        <Row Type="NARRATIVE_TAG_CCNE3011B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE3011C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE3011D" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE3011E" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Modern DLC -->
+        <!-- Great Britain -->
+        <Row Type="NARRATIVE_TAG_CCNE3012B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE3012C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE3012D" Kind="KIND_NARRATIVE_TAG"/>
+        <!-- Nepal -->
+        <Row Type="NARRATIVE_TAG_CCNE3013B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE3013C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE3013D" Kind="KIND_NARRATIVE_TAG"/>
+    </Types>
+    <NarrativeTags>
+        <!-- Antiquity Base -->
+        <!-- Aksum -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE101B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE101C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE101D"/>
+        <!-- Egypt -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE102B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE102C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE102D"/>
+        <!-- Greece -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE103B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE103C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE103D"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE103E"/>
+        <!-- Han -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE104B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE104C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE104D"/>
+        <!-- Khmer -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE105B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE105C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE105D"/>
+        <!-- Maurya -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE106B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE106C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE106D"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE106E"/>
+        <!-- Maya -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE107B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE107C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE107D"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE107E"/>
+        <!-- Mississipi -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE108B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE108C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE108D"/>
+        <!-- Persia -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE109B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE109C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE109D"/>
+        <!-- Rome -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE1010B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE1010C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE1010D"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE1010E"/>
+        <!-- Antiquity DLC -->
+        <!-- Assyria -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE1011B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE1011C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE1011D"/>
+        <!-- Carthage -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE1012B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE1012C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE1012D"/>
+        <!-- Exploration Base -->
+        <!-- Abbasid -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE201B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE201C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE201D"/>
+        <!-- Chola -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE202B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE202C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE202D"/>
+        <!-- Hawai'i -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE203B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE203C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE203D"/>
+        <!-- Inca -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE204B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE204C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE204D"/>
+        <!-- Majapahit -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE205B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE205C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE205D"/>
+        <!-- Ming -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE206B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE206C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE206D"/>
+        <!-- Mongolia -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE207B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE207C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE207D"/>
+        <!-- Norman -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE208B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE208C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE208D"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE208E"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE208F"/>
+        <!-- Songhai -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE209B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE209C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE209D"/>
+        <!-- Spain -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE2010B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE2010C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE2010D"/>
+        <!-- Exploration DLC -->
+        <!-- Bulgaria -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE2011B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE2011C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE2011D"/>
+        <!-- Đại Việt -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE2012B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE2012C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE2012D"/>
+        <!-- Shawnee -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE2013B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE2013C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE2013D"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE2013E"/>
+        <!-- Modern Base -->
+        <!-- America -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE301B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE301C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE301D"/>
+        <!-- Buganda -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE302B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE302C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE302D"/>
+        <!-- French Empire -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE303B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE303C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE303D"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE303E"/>
+        <!-- Meiji -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE304B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE304C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE304D"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE304E"/>
+        <!-- Mexico -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE305B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE305C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE305D"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE305E"/>
+        <!-- Mughal -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE306B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE306C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE306D"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE306E"/>
+        <!-- Prussia -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE307B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE307C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE307D"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE307E"/>
+        <!-- Qing -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE308B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE308C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE308D"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE308E"/>
+        <!-- Russia -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE309B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE309C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE309D"/>
+        <!-- Siam -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE3010B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE3010C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE3010D"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE3010E"/>
+        <!-- Modern Custom -->
+        <!-- Earth Kingdom -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE3011B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE3011C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE3011D"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE3011E"/>
+        <!-- Modern DLC -->
+        <!-- Great Britain -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE3012B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE3012C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE3012D"/>
+        <!-- Nepal -->
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE3013B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE3013C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE3013D"/>
+    </NarrativeTags>
+</Database>
