@@ -2,10 +2,10 @@
 
 Author: Austin Nicolas
 
-Version: 0.1
+Version: 1.0
 
 ## Current Mod:
 
-A narrative event occurs when capturing a Civilization's capital for the first time. The rewards include one of the traditions of the Civilization (just for the age) or a promotion on a commander.
+A narrative event occurs when capturing a Civilization's capital for the first time. The rewards include one of the traditions of the Civilization or a promotion on a commander.
 
 Works for all Base Civilizations and DLC Civilizations, and some modded Civilizations.

@@ -18,15 +18,18 @@
     <!-- Ensure event occurs turn one -->
     <RequirementSet id="REQSET_RETAIN_TRADITIONS">
     	<Requirement type="REQUIREMENT_REQUIREMENTSET_IS_MET">
-            <Argument name="RequirementSetId">SUBREQSET_RETAIN_TRADITIONS</Argument>
+            <Argument name="RequirementSetId">SUBREQSET_RETAIN_TRADITIONS_CHECK_AGE</Argument>
         </Requirement>
         <Requirement type="REQUIREMENT_GAME_TURN_IS_X_NARRATIVE">
             <Argument name="AfterTurn">1</Argument>
         </Requirement>
+        <Requirement type="REQUIREMENT_REQUIREMENTSET_IS_MET">
+            <Argument name="RequirementSetId">SUBREQSET_RETAIN_TRADITIONS_CHECK_TAGS</Argument>
+        </Requirement>
     </RequirementSet>
 
     <!-- Ensure proper age -->
-    <RequirementSet id="SUBREQSET_RETAIN_TRADITIONS" type="REQUIREMENTSET_TEST_ANY">
+    <RequirementSet id="SUBREQSET_RETAIN_TRADITIONS_CHECK_AGE" type="REQUIREMENTSET_TEST_ANY">
     	<Requirement type="REQUIREMENT_REQUIREMENTSET_IS_MET">
             <Argument name="RequirementSetId">SUBREQSET_CHECK_EXP</Argument>
         </Requirement>
@@ -57,5 +60,13 @@
         <Requirement type="REQUIREMENT_IS_AGE_COUNT">
             <Argument name="AgeCount">3</Argument>
         </Requirement>
-	</RequirementSet>  
+	</RequirementSet>
+
+    <!-- Ensure player conquered capitals and picked policies -->
+     <RequirementSet id="SUBREQSET_RETAIN_TRADITIONS_CHECK_TAGS" type="REQUIREMENTSET_TEST_ANY">
+    	<Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE101B</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+    </RequirementSet>
 </GameEffects>
