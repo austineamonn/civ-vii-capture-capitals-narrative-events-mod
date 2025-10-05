@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+
+    <!-- Modifiers -->
+
+    <!-- Nepal -->
+    <Modifier id="CCNE3014B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+		<Argument name="Tradition">TRADITION_QULLARAQASI</Argument>
+	</Modifier>
+    <Modifier id="CCNE3014C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+		<Argument name="Tradition">TRADITION_SOLEYMANIYEH_PALACE</Argument>
+	</Modifier>
+    <Modifier id="CCNE3014D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+		<Argument name="Tradition">TRADITION_WAQAYE_E_ETTEFAQIYA</Argument>
+	</Modifier>
+    <Modifier id="CCNE3014E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+    </Modifier>
+
+    <!-- Requirements and Requirement Sets -->
+
+    <!--<RequirementSet id="REQSET_CCNE3014A_NARRATIVE">
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONQUER_CITY01</Argument>
+            <Argument name="GOSSIP_CONQUER_CITY01">Hash,IsCapital,True,Hash,OtherPlayer,Other,Hash,Civilization,CIVILIZATION_QAJAR</Argument>
+        </Requirement>
+    </RequirementSet>-->
+    <RequirementSet id="REQSET_CCNE3014A_NARRATIVE">
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01</Argument>
+            <Argument name="GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01">Hash,ProgressionTreeNodeType,NODE_CIVIC_MO_MAIN_MODERNIZATION,Numeric,TreeDepth,1</Argument>
+        </Requirement>
+    </RequirementSet>
+</GameEffects>

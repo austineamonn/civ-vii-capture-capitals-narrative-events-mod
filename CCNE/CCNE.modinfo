@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="capture_capital_narrative_events" version="1.0.1"
+<Mod id="capture_capital_narrative_events" version="1.0.2"
 	xmlns="ModInfo">
 	<Properties>
 		<Name>LOC_MODULE_CCNE_NAME</Name>
@@ -138,6 +138,17 @@
 				</UpdateText>
             </Actions>
 		</ActionGroup>
+		<ActionGroup id="base-game-main-qajar" scope="game" criteria="qajar-enable">
+			<Actions>
+                <UpdateDatabase>
+					<Item>data/DLC/narrative-stories-qajar.xml</Item>
+					<Item>data/DLC/narrative-stories-gameeffects-qajar.xml</Item>
+                </UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/NarrativeStoriesQajarText.xml</Item>
+				</UpdateText>
+            </Actions>
+		</ActionGroup>
 		<ActionGroup id="base-game-main-shawnee" scope="game" criteria="shawnee-enable">
 			<Actions>
                 <UpdateDatabase>
@@ -146,6 +157,17 @@
                 </UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/NarrativeStoriesShawneeText.xml</Item>
+				</UpdateText>
+            </Actions>
+		</ActionGroup>
+		<ActionGroup id="base-game-main-silla" scope="game" criteria="silla-enable">
+			<Actions>
+                <UpdateDatabase>
+					<Item>data/DLC/narrative-stories-silla.xml</Item>
+					<Item>data/DLC/narrative-stories-gameeffects-silla.xml</Item>
+                </UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/NarrativeStoriesSillaText.xml</Item>
 				</UpdateText>
             </Actions>
 		</ActionGroup>

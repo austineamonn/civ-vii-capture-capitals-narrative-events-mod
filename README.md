@@ -2,7 +2,7 @@
 
 Author: Austin Nicolas
 
-Version: 1.0.1
+Version: 1.0.2
 
 ## Current Mod:
 
@@ -12,4 +12,4 @@ Works for all Base Civilizations and DLC Civilizations, and some modded Civiliza
 
 ## Latest Update:
 
-Working to allow traditions to be brought between ages. Works for base antiquity civilizations.
+Added Qajar.
