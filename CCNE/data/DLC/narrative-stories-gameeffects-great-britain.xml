@@ -4,16 +4,16 @@
     <!-- Modifiers -->
 
     <!-- Great Britain -->
-    <Modifier id="CCNE3012B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+    <Modifier id="CCNE3012B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
 		<Argument name="Tradition">TRADITION_PROCEEDINGS</Argument>
 	</Modifier>
-    <Modifier id="CCNE3012C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+    <Modifier id="CCNE3012C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
 		<Argument name="Tradition">TRADITION_EAST_INDIA_COMPANY</Argument>
 	</Modifier>
-    <Modifier id="CCNE3012D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+    <Modifier id="CCNE3012D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
 		<Argument name="Tradition">TRADITION_NO_ETERNAL_ALLIES</Argument>
 	</Modifier>
-    <Modifier id="CCNE3012E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="true" permanent="true">
+    <Modifier id="CCNE3012E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>
     </Modifier>
 

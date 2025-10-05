@@ -11,12 +11,113 @@
         Completion="LOC_RETAIN_TRADITIONS_A_COMPLETION"  StoryTitle="LOC_RETAIN_TRADITIONS_A_STORYTITLE" Activation="REQUISITE" RequirementSetId="REQSET_RETAIN_TRADITIONS" UIActivation="STANDARD"/>
         <Row NarrativeStoryType="RETAIN_TRADITIONS_B" Name="LOC_RETAIN_TRADITIONS_B_NAME" Description="LOC_RETAIN_TRADITIONS_B_DESCRIPTION" Completion="LOC_RETAIN_TRADITIONS_B_COMPLETION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD" />
     </NarrativeStories>
-    <NarrativeRewards>
-        <!--<Row NarrativeRewardType="MORE_UNLOCK_TRADITION_REWARD_HAN_A_1" ModifierID="MOD_MORE_UNLOCK_TRADITION_HAN_A_1"/>-->
-        <!--all possible mod unlocks-->
-    </NarrativeRewards>
     <NarrativeStory_Rewards>
+        <!-- Antiquity -->
         <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE101B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE101C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE101D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE102B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE102C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE102D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE103B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE103C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE103D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE103E_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE104B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE104C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE104D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE105B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE105C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE105D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE106B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE106C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE106D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE106E_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE107B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE107C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE107D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE107E_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE108B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE108C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE108D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE109B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE109C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE109D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE1010B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE1010C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE1010D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE1010E_REWARD" Activation="START"/>
+        <!-- Exploration -->
+        <!--<Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE201B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE201C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE201D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE202B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE202C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE202D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE203B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE203C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE203D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE204B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE204C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE204D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE205B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE205C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE205D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE206B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE206C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE206D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE207B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE207C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE207D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE208B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE208C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE208D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE208E_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE208F_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE209B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE209C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE209D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE2010B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE2010C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE2010D_REWARD" Activation="START"/>-->
+        <!-- Modern -->
+        <!--<Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE301B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE301C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE301D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE302B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE302C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE302D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE303B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE303C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE303D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE303E_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE304B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE304C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE304D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE304E_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE305B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE305C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE305D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE305E_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE306B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE306C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE306D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE306E_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE307B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE307C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE307D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE307E_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE308B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE308C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE308D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE308E_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE309B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE309C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE309D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE3010B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE3010C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE3010D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE3010E_REWARD" Activation="START"/>-->
     </NarrativeStory_Rewards>
     <NarrativeRewardIcons>
         <Row NarrativeStoryType="RETAIN_TRADITIONS_B" RewardIconType="TRADITION_SLOT"/>

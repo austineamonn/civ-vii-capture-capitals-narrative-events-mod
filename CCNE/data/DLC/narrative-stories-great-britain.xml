@@ -6,7 +6,15 @@
         <Row Type="CCNE3012C" Kind="KIND_NARRATIVE_STORY"/>
         <Row Type="CCNE3012D" Kind="KIND_NARRATIVE_STORY"/>
         <Row Type="CCNE3012E" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="NARRATIVE_TAG_CCNE3012B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE3012C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE3012D" Kind="KIND_NARRATIVE_TAG"/>
     </Types>
+    <NarrativeTags>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE3012B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE3012C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE3012D"/>
+    </NarrativeTags>
     <NarrativeStories>
         <Row NarrativeStoryType="CCNE3012A" Name="LOC_CCNE3012A_NAME" Description="LOC_CCNE3012A_DESCRIPTION" Completion="LOC_CCNE3012A_COMPLETION" StoryTitle="LOC_CCNE3012A_STORYTITLE" Age="AGE_EXPLORATION" Activation="AUTO" RequirementSetId="REQSET_CCNE3012A_NARRATIVE" UIActivation="STANDARD"/>
         <Row NarrativeStoryType="CCNE3012B" Name="LOC_CCNE3012B_NAME" Description="LOC_CCNE3012B_DESCRIPTION" Completion="LOC_CCNE3012B_COMPLETION" Age="AGE_EXPLORATION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met"/>
@@ -21,10 +29,15 @@
         <Row NarrativeRewardType="CCNE3012E_REWARD" ModifierID="CCNE3012E_NARRATIVE_MODIFIER"/>
     </NarrativeRewards>
     <NarrativeStory_Rewards>
+        <!-- Capital Captured -->
         <Row NarrativeStoryType="CCNE3012B" NarrativeRewardType="CCNE3012B_REWARD" Activation="START"/>
         <Row NarrativeStoryType="CCNE3012C" NarrativeRewardType="CCNE3012C_REWARD" Activation="START"/>
         <Row NarrativeStoryType="CCNE3012D" NarrativeRewardType="CCNE3012D_REWARD" Activation="START"/>
         <Row NarrativeStoryType="CCNE3012E" NarrativeRewardType="CCNE3012E_REWARD" Activation="START"/>
+        <!-- Retain Traditions -->
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE3012B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE3012C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE3012D_REWARD" Activation="START"/>
     </NarrativeStory_Rewards>
     <NarrativeRewardIcons>
         <Row NarrativeStoryType="CCNE3012B" RewardIconType="TRADITION_SLOT"/>

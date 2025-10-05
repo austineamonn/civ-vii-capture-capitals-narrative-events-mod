@@ -46,15 +46,6 @@
         <Row Type="NARRATIVE_TAG_CCNE1010C" Kind="KIND_NARRATIVE_TAG"/>
         <Row Type="NARRATIVE_TAG_CCNE1010D" Kind="KIND_NARRATIVE_TAG"/>
         <Row Type="NARRATIVE_TAG_CCNE1010E" Kind="KIND_NARRATIVE_TAG"/>
-        <!-- Antiquity DLC -->
-        <!-- Assyria -->
-        <Row Type="NARRATIVE_TAG_CCNE1011B" Kind="KIND_NARRATIVE_TAG"/>
-        <Row Type="NARRATIVE_TAG_CCNE1011C" Kind="KIND_NARRATIVE_TAG"/>
-        <Row Type="NARRATIVE_TAG_CCNE1011D" Kind="KIND_NARRATIVE_TAG"/>
-        <!-- Carthage -->
-        <Row Type="NARRATIVE_TAG_CCNE1012B" Kind="KIND_NARRATIVE_TAG"/>
-        <Row Type="NARRATIVE_TAG_CCNE1012C" Kind="KIND_NARRATIVE_TAG"/>
-        <Row Type="NARRATIVE_TAG_CCNE1012D" Kind="KIND_NARRATIVE_TAG"/>
         <!-- Exploration Base -->
         <!-- Abbasid -->
     	<Row Type="NARRATIVE_TAG_CCNE201B" Kind="KIND_NARRATIVE_TAG"/>
@@ -98,20 +89,6 @@
     	<Row Type="NARRATIVE_TAG_CCNE2010B" Kind="KIND_NARRATIVE_TAG"/>
         <Row Type="NARRATIVE_TAG_CCNE2010C" Kind="KIND_NARRATIVE_TAG"/>
         <Row Type="NARRATIVE_TAG_CCNE2010D" Kind="KIND_NARRATIVE_TAG"/>
-        <!-- Exploration DLC -->
-        <!-- Bulgaria -->
-        <Row Type="NARRATIVE_TAG_CCNE2011B" Kind="KIND_NARRATIVE_TAG"/>
-        <Row Type="NARRATIVE_TAG_CCNE2011C" Kind="KIND_NARRATIVE_TAG"/>
-        <Row Type="NARRATIVE_TAG_CCNE2011D" Kind="KIND_NARRATIVE_TAG"/>
-        <!-- Đại Việt -->
-        <Row Type="NARRATIVE_TAG_CCNE2012B" Kind="KIND_NARRATIVE_TAG"/>
-        <Row Type="NARRATIVE_TAG_CCNE2012C" Kind="KIND_NARRATIVE_TAG"/>
-        <Row Type="NARRATIVE_TAG_CCNE2012D" Kind="KIND_NARRATIVE_TAG"/>
-        <!-- Shawnee -->
-        <Row Type="NARRATIVE_TAG_CCNE2013B" Kind="KIND_NARRATIVE_TAG"/>
-        <Row Type="NARRATIVE_TAG_CCNE2013C" Kind="KIND_NARRATIVE_TAG"/>
-        <Row Type="NARRATIVE_TAG_CCNE2013D" Kind="KIND_NARRATIVE_TAG"/>
-        <Row Type="NARRATIVE_TAG_CCNE2013E" Kind="KIND_NARRATIVE_TAG"/>
         <!-- Modern Base -->
         <!-- America -->
     	<Row Type="NARRATIVE_TAG_CCNE301B" Kind="KIND_NARRATIVE_TAG"/>
@@ -160,21 +137,6 @@
         <Row Type="NARRATIVE_TAG_CCNE3010C" Kind="KIND_NARRATIVE_TAG"/>
         <Row Type="NARRATIVE_TAG_CCNE3010D" Kind="KIND_NARRATIVE_TAG"/>
         <Row Type="NARRATIVE_TAG_CCNE3010E" Kind="KIND_NARRATIVE_TAG"/>
-        <!-- Modern Custom -->
-        <!-- Earth Kingdom -->
-        <Row Type="NARRATIVE_TAG_CCNE3011B" Kind="KIND_NARRATIVE_TAG"/>
-        <Row Type="NARRATIVE_TAG_CCNE3011C" Kind="KIND_NARRATIVE_TAG"/>
-        <Row Type="NARRATIVE_TAG_CCNE3011D" Kind="KIND_NARRATIVE_TAG"/>
-        <Row Type="NARRATIVE_TAG_CCNE3011E" Kind="KIND_NARRATIVE_TAG"/>
-        <!-- Modern DLC -->
-        <!-- Great Britain -->
-        <Row Type="NARRATIVE_TAG_CCNE3012B" Kind="KIND_NARRATIVE_TAG"/>
-        <Row Type="NARRATIVE_TAG_CCNE3012C" Kind="KIND_NARRATIVE_TAG"/>
-        <Row Type="NARRATIVE_TAG_CCNE3012D" Kind="KIND_NARRATIVE_TAG"/>
-        <!-- Nepal -->
-        <Row Type="NARRATIVE_TAG_CCNE3013B" Kind="KIND_NARRATIVE_TAG"/>
-        <Row Type="NARRATIVE_TAG_CCNE3013C" Kind="KIND_NARRATIVE_TAG"/>
-        <Row Type="NARRATIVE_TAG_CCNE3013D" Kind="KIND_NARRATIVE_TAG"/>
     </Types>
     <NarrativeTags>
         <!-- Antiquity Base -->
@@ -222,15 +184,6 @@
         <Row NarrativeTagType="NARRATIVE_TAG_CCNE1010C"/>
         <Row NarrativeTagType="NARRATIVE_TAG_CCNE1010D"/>
         <Row NarrativeTagType="NARRATIVE_TAG_CCNE1010E"/>
-        <!-- Antiquity DLC -->
-        <!-- Assyria -->
-        <Row NarrativeTagType="NARRATIVE_TAG_CCNE1011B"/>
-        <Row NarrativeTagType="NARRATIVE_TAG_CCNE1011C"/>
-        <Row NarrativeTagType="NARRATIVE_TAG_CCNE1011D"/>
-        <!-- Carthage -->
-        <Row NarrativeTagType="NARRATIVE_TAG_CCNE1012B"/>
-        <Row NarrativeTagType="NARRATIVE_TAG_CCNE1012C"/>
-        <Row NarrativeTagType="NARRATIVE_TAG_CCNE1012D"/>
         <!-- Exploration Base -->
         <!-- Abbasid -->
         <Row NarrativeTagType="NARRATIVE_TAG_CCNE201B"/>
@@ -274,20 +227,6 @@
         <Row NarrativeTagType="NARRATIVE_TAG_CCNE2010B"/>
         <Row NarrativeTagType="NARRATIVE_TAG_CCNE2010C"/>
         <Row NarrativeTagType="NARRATIVE_TAG_CCNE2010D"/>
-        <!-- Exploration DLC -->
-        <!-- Bulgaria -->
-        <Row NarrativeTagType="NARRATIVE_TAG_CCNE2011B"/>
-        <Row NarrativeTagType="NARRATIVE_TAG_CCNE2011C"/>
-        <Row NarrativeTagType="NARRATIVE_TAG_CCNE2011D"/>
-        <!-- Đại Việt -->
-        <Row NarrativeTagType="NARRATIVE_TAG_CCNE2012B"/>
-        <Row NarrativeTagType="NARRATIVE_TAG_CCNE2012C"/>
-        <Row NarrativeTagType="NARRATIVE_TAG_CCNE2012D"/>
-        <!-- Shawnee -->
-        <Row NarrativeTagType="NARRATIVE_TAG_CCNE2013B"/>
-        <Row NarrativeTagType="NARRATIVE_TAG_CCNE2013C"/>
-        <Row NarrativeTagType="NARRATIVE_TAG_CCNE2013D"/>
-        <Row NarrativeTagType="NARRATIVE_TAG_CCNE2013E"/>
         <!-- Modern Base -->
         <!-- America -->
         <Row NarrativeTagType="NARRATIVE_TAG_CCNE301B"/>
@@ -336,20 +275,5 @@
         <Row NarrativeTagType="NARRATIVE_TAG_CCNE3010C"/>
         <Row NarrativeTagType="NARRATIVE_TAG_CCNE3010D"/>
         <Row NarrativeTagType="NARRATIVE_TAG_CCNE3010E"/>
-        <!-- Modern Custom -->
-        <!-- Earth Kingdom -->
-        <Row NarrativeTagType="NARRATIVE_TAG_CCNE3011B"/>
-        <Row NarrativeTagType="NARRATIVE_TAG_CCNE3011C"/>
-        <Row NarrativeTagType="NARRATIVE_TAG_CCNE3011D"/>
-        <Row NarrativeTagType="NARRATIVE_TAG_CCNE3011E"/>
-        <!-- Modern DLC -->
-        <!-- Great Britain -->
-        <Row NarrativeTagType="NARRATIVE_TAG_CCNE3012B"/>
-        <Row NarrativeTagType="NARRATIVE_TAG_CCNE3012C"/>
-        <Row NarrativeTagType="NARRATIVE_TAG_CCNE3012D"/>
-        <!-- Nepal -->
-        <Row NarrativeTagType="NARRATIVE_TAG_CCNE3013B"/>
-        <Row NarrativeTagType="NARRATIVE_TAG_CCNE3013C"/>
-        <Row NarrativeTagType="NARRATIVE_TAG_CCNE3013D"/>
     </NarrativeTags>
 </Database>

@@ -6,7 +6,15 @@
         <Row Type="CCNE1012C" Kind="KIND_NARRATIVE_STORY"/>
         <Row Type="CCNE1012D" Kind="KIND_NARRATIVE_STORY"/>
         <Row Type="CCNE1012E" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="NARRATIVE_TAG_CCNE1012B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE1012C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE1012D" Kind="KIND_NARRATIVE_TAG"/>
     </Types>
+    <NarrativeTags>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE1012B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE1012C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE1012D"/>
+    </NarrativeTags>
     <NarrativeStories>
         <Row NarrativeStoryType="CCNE1012A" Name="LOC_CCNE1012A_NAME" Description="LOC_CCNE1012A_DESCRIPTION" Completion="LOC_CCNE1012A_COMPLETION" StoryTitle="LOC_CCNE1012A_STORYTITLE" Age="AGE_ANTIQUITY" Activation="AUTO" RequirementSetId="REQSET_CCNE1012A_NARRATIVE" UIActivation="STANDARD"/>
         <Row NarrativeStoryType="CCNE1012B" Name="LOC_CCNE1012B_NAME" Description="LOC_CCNE1012B_DESCRIPTION" Completion="LOC_CCNE1012B_COMPLETION" Age="AGE_ANTIQUITY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met"/>
@@ -25,6 +33,9 @@
         <Row NarrativeStoryType="CCNE1012C" NarrativeRewardType="CCNE1012C_REWARD" Activation="START"/>
         <Row NarrativeStoryType="CCNE1012D" NarrativeRewardType="CCNE1012D_REWARD" Activation="START"/>
         <Row NarrativeStoryType="CCNE1012E" NarrativeRewardType="CCNE1012E_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE1012B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE1012C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE1012D_REWARD" Activation="START"/>
     </NarrativeStory_Rewards>
     <NarrativeRewardIcons>
         <Row NarrativeStoryType="CCNE1012B" RewardIconType="TRADITION_SLOT"/>

@@ -4,16 +4,16 @@
     <!-- Modifiers -->
 
     <!-- Bulgaria -->
-    <Modifier id="CCNE2011B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+    <Modifier id="CCNE2011B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
 		<Argument name="Tradition">TRADITION_FALSE_RETREAT</Argument>
 	</Modifier>
-    <Modifier id="CCNE2011C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+    <Modifier id="CCNE2011C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
 		<Argument name="Tradition">TRADITION_ICONOLATRY</Argument>
 	</Modifier>
-    <Modifier id="CCNE2011D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
+    <Modifier id="CCNE2011D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
 		<Argument name="Tradition">TRADITION_STRATAGEMS</Argument>
 	</Modifier>
-    <Modifier id="CCNE2011E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="true" permanent="true">
+    <Modifier id="CCNE2011E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>
     </Modifier>
 
