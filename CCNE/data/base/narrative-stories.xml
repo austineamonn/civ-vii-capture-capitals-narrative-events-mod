@@ -48,7 +48,7 @@
         <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE1010D_REWARD" Activation="START"/>
         <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE1010E_REWARD" Activation="START"/>
         <!-- Exploration -->
-        <!--<Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE201B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE201B_REWARD" Activation="START"/>
         <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE201C_REWARD" Activation="START"/>
         <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE201D_REWARD" Activation="START"/>
         <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE202B_REWARD" Activation="START"/>
@@ -79,7 +79,7 @@
         <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE209D_REWARD" Activation="START"/>
         <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE2010B_REWARD" Activation="START"/>
         <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE2010C_REWARD" Activation="START"/>
-        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE2010D_REWARD" Activation="START"/>-->
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE2010D_REWARD" Activation="START"/>
         <!-- Modern -->
         <!--<Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE301B_REWARD" Activation="START"/>
         <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE301C_REWARD" Activation="START"/>

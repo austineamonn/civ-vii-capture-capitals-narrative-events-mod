@@ -2,152 +2,479 @@
 <GameEffects xmlns="GameEffects">
 
     <!-- Modifiers -->
-
     <!-- Abbasid -->
     <Modifier id="CCNE201B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE201B</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_CITY_OF_PEACE</Argument>
 	</Modifier>
+    <Modifier id="CCNE201B_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE201B</Argument>
+    </Modifier>
     <Modifier id="CCNE201C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE201C</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_COMPENDIOUS_BOOK</Argument>
 	</Modifier>
+    <Modifier id="CCNE201C_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE201C</Argument>
+    </Modifier>
     <Modifier id="CCNE201D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE201D</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_SALES_AND_TRADE</Argument>
 	</Modifier>
+    <Modifier id="CCNE201D_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE201D</Argument>
+    </Modifier>
     <Modifier id="CCNE201E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>
     </Modifier>
     <!-- Chola -->
     <Modifier id="CCNE202B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE202B</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_DEVAKOSHTA</Argument>
 	</Modifier>
+    <Modifier id="CCNE202B_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE202B</Argument>
+    </Modifier>
     <Modifier id="CCNE202C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE202C</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_MARAKKALAM</Argument>
 	</Modifier>
+    <Modifier id="CCNE202C_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE202C</Argument>
+    </Modifier>
     <Modifier id="CCNE202D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE202D</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_ANGADI</Argument>
 	</Modifier>
+    <Modifier id="CCNE202D_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE202D</Argument>
+    </Modifier>
     <Modifier id="CCNE202E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>
     </Modifier>
     <!-- Hawaii -->
     <Modifier id="CCNE203B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE203B</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_KAPA</Argument>
 	</Modifier>
+    <Modifier id="CCNE203B_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE203B</Argument>
+    </Modifier>
     <Modifier id="CCNE203C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE203C</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_AHUPUA_A</Argument>
 	</Modifier>
+    <Modifier id="CCNE203C_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE203C</Argument>
+    </Modifier>
     <Modifier id="CCNE203D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE203D</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_HO_OKUPU</Argument>
 	</Modifier>
+    <Modifier id="CCNE203D_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE203D</Argument>
+    </Modifier>
     <Modifier id="CCNE203E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>
     </Modifier>
     <!-- Inca -->
     <Modifier id="CCNE204B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE204B</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_QUALLQA</Argument>
 	</Modifier>
+    <Modifier id="CCNE204B_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE204B</Argument>
+    </Modifier>
     <Modifier id="CCNE204C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE204C</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_QUIPU</Argument>
 	</Modifier>
+    <Modifier id="CCNE204C_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE204C</Argument>
+    </Modifier>
     <Modifier id="CCNE204D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE204D</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_TIRAKUNA</Argument>
 	</Modifier>
+    <Modifier id="CCNE204D_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE204D</Argument>
+    </Modifier>
     <Modifier id="CCNE204E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>
     </Modifier>
     <!-- Majapahit -->
     <Modifier id="CCNE205B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE202B</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_PANJI</Argument>
 	</Modifier>
+    <Modifier id="CCNE205B_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE205B</Argument>
+    </Modifier>
     <Modifier id="CCNE205C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE205C</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_NEGARAKERTAGAMA</Argument>
 	</Modifier>
+    <Modifier id="CCNE205C_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE205C</Argument>
+    </Modifier>
     <Modifier id="CCNE205D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE205D</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_SUBAK</Argument>
 	</Modifier>
+    <Modifier id="CCNE205D_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE205D</Argument>
+    </Modifier>
     <Modifier id="CCNE205E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>
     </Modifier>
     <!-- Ming -->
     <Modifier id="CCNE206B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE206B</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_BAOJIA</Argument>
 	</Modifier>
+    <Modifier id="CCNE206B_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE206B</Argument>
+    </Modifier>
     <Modifier id="CCNE206C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE206C</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_DIVINE_ENGINE_DIVISION</Argument>
 	</Modifier>
+    <Modifier id="CCNE206C_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE206C</Argument>
+    </Modifier>
     <Modifier id="CCNE206D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE206D</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_GRAND_SECRETARIAT</Argument>
 	</Modifier>
+    <Modifier id="CCNE206D_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE206D</Argument>
+    </Modifier>
     <Modifier id="CCNE206E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>
     </Modifier>
     <!-- Mongolia -->
     <Modifier id="CCNE207B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE207B</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_BAGHATUR</Argument>
 	</Modifier>
+    <Modifier id="CCNE207B_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE207B</Argument>
+    </Modifier>
     <Modifier id="CCNE207C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE207C</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_GEREGE</Argument>
 	</Modifier>
+    <Modifier id="CCNE207C_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE207C</Argument>
+    </Modifier>
     <Modifier id="CCNE207D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE207D</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_JARLIG</Argument>
 	</Modifier>
+    <Modifier id="CCNE207D_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE207D</Argument>
+    </Modifier>
     <Modifier id="CCNE207E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>
     </Modifier>
     <!-- Norman -->
     <Modifier id="CCNE208B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE208B</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_BAYEUX_TAPESTRY</Argument>
 	</Modifier>
+    <Modifier id="CCNE208B_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE208B</Argument>
+    </Modifier>
     <Modifier id="CCNE208C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE208C</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_FAMILIA_REGIS</Argument>
 	</Modifier>
+    <Modifier id="CCNE208C_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE208C</Argument>
+    </Modifier>
     <Modifier id="CCNE208D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE208D</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_JURE</Argument>
 	</Modifier>
+    <Modifier id="CCNE208D_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE208D</Argument>
+    </Modifier>
     <Modifier id="CCNE208E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE208E</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_PALISADING</Argument>
 	</Modifier>
+    <Modifier id="CCNE208E_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE208E</Argument>
+    </Modifier>
     <Modifier id="CCNE208F_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE208F</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_SERVITIUM_DEBITUM</Argument>
 	</Modifier>
+    <Modifier id="CCNE208F_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE208F</Argument>
+    </Modifier>
     <Modifier id="CCNE208G_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>
     </Modifier>
     <!-- Songhai -->
     <Modifier id="CCNE209B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE209B</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_ISA</Argument>
 	</Modifier>
+    <Modifier id="CCNE209B_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE209B</Argument>
+    </Modifier>
     <Modifier id="CCNE209C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE209C</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_TIMBUKTU</Argument>
 	</Modifier>
+    <Modifier id="CCNE209C_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE209C</Argument>
+    </Modifier>
     <Modifier id="CCNE209D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE209D</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_MUD_BRICK</Argument>
 	</Modifier>
+    <Modifier id="CCNE209D_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE209D</Argument>
+    </Modifier>
     <Modifier id="CCNE209E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>
     </Modifier>
     <!-- Spain -->
     <Modifier id="CCNE2010B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE2010B</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_CONQUISTA</Argument>
 	</Modifier>
+    <Modifier id="CCNE2010B_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE2010B</Argument>
+    </Modifier>
     <Modifier id="CCNE2010C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE2010C</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_CERRO_RICO</Argument>
 	</Modifier>
+    <Modifier id="CCNE2010C_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE2010C</Argument>
+    </Modifier>
     <Modifier id="CCNE2010D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE2010D</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_GREAT_AND_MOST_FORTUNATE_NAVY</Argument>
 	</Modifier>
+    <Modifier id="CCNE2010D_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE2010D</Argument>
+    </Modifier>
     <Modifier id="CCNE2010E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>
     </Modifier>
 
     <!-- Requirements and Requirement Sets -->
 
+    <!-- Simple Requirement Set for Testing -->
     <RequirementSet id="REQSET_CCNE201A_NARRATIVE">
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01</Argument>
+            <Argument name="GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01">Hash,ProgressionTreeNodeType,NODE_CIVIC_EX_MAIN_PIETY,Numeric,TreeDepth,1</Argument>
+        </Requirement>
+    </RequirementSet>
+
+    <!--<RequirementSet id="REQSET_CCNE201A_NARRATIVE">
         <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
             <Argument name="GossipTypes">GOSSIP_CONQUER_CITY01</Argument>
             <Argument name="GOSSIP_CONQUER_CITY01">Hash,IsCapital,True,Hash,OtherPlayer,Other,Hash,Civilization,CIVILIZATION_ABBASID</Argument>
         </Requirement>
-    </RequirementSet>
+    </RequirementSet>-->
     <RequirementSet id="REQSET_CCNE202A_NARRATIVE">
         <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
             <Argument name="GossipTypes">GOSSIP_CONQUER_CITY01</Argument>

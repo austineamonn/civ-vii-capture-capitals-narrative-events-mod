@@ -151,48 +151,112 @@
         <Row NarrativeRewardType="CCNE2010C_REWARD" ModifierID="CCNE2010C_NARRATIVE_MODIFIER"/>
         <Row NarrativeRewardType="CCNE2010D_REWARD" ModifierID="CCNE2010D_NARRATIVE_MODIFIER"/>
         <Row NarrativeRewardType="CCNE2010E_REWARD" ModifierID="CCNE2010E_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="CCNE201B_REWARD_TAG" ModifierID="CCNE201B_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE201C_REWARD_TAG" ModifierID="CCNE201C_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE201D_REWARD_TAG" ModifierID="CCNE201D_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE202B_REWARD_TAG" ModifierID="CCNE202B_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE202C_REWARD_TAG" ModifierID="CCNE202C_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE202D_REWARD_TAG" ModifierID="CCNE202D_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE203B_REWARD_TAG" ModifierID="CCNE203B_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE203C_REWARD_TAG" ModifierID="CCNE203C_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE203D_REWARD_TAG" ModifierID="CCNE203D_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE204B_REWARD_TAG" ModifierID="CCNE204B_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE204C_REWARD_TAG" ModifierID="CCNE204C_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE204D_REWARD_TAG" ModifierID="CCNE204D_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE205B_REWARD_TAG" ModifierID="CCNE205B_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE205C_REWARD_TAG" ModifierID="CCNE205C_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE205D_REWARD_TAG" ModifierID="CCNE205D_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE206B_REWARD_TAG" ModifierID="CCNE206B_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE206C_REWARD_TAG" ModifierID="CCNE206C_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE206D_REWARD_TAG" ModifierID="CCNE206D_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE207B_REWARD_TAG" ModifierID="CCNE207B_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE207C_REWARD_TAG" ModifierID="CCNE207C_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE207D_REWARD_TAG" ModifierID="CCNE207D_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE208B_REWARD_TAG" ModifierID="CCNE208B_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE208C_REWARD_TAG" ModifierID="CCNE208C_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE208D_REWARD_TAG" ModifierID="CCNE208D_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE208E_REWARD_TAG" ModifierID="CCNE208E_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE208F_REWARD_TAG" ModifierID="CCNE208F_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE209B_REWARD_TAG" ModifierID="CCNE209B_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE209C_REWARD_TAG" ModifierID="CCNE209C_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE209D_REWARD_TAG" ModifierID="CCNE209D_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE2010B_REWARD_TAG" ModifierID="CCNE2010B_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE2010C_REWARD_TAG" ModifierID="CCNE2010C_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE2010D_REWARD_TAG" ModifierID="CCNE2010D_NARRATIVE_MODIFIER_TAG"/>
     </NarrativeRewards>
     <NarrativeStory_Rewards>
+        <Row NarrativeStoryType="CCNE201B" NarrativeRewardType="CCNE201B_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE201B" NarrativeRewardType="CCNE201B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE201C" NarrativeRewardType="CCNE201C_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE201C" NarrativeRewardType="CCNE201C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE201D" NarrativeRewardType="CCNE201D_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE201D" NarrativeRewardType="CCNE201D_REWARD" Activation="START"/>
         <Row NarrativeStoryType="CCNE201E" NarrativeRewardType="CCNE201E_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE202B" NarrativeRewardType="CCNE202B_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE202B" NarrativeRewardType="CCNE202B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE202C" NarrativeRewardType="CCNE202C_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE202C" NarrativeRewardType="CCNE202C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE202D" NarrativeRewardType="CCNE202D_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE202D" NarrativeRewardType="CCNE202D_REWARD" Activation="START"/>
         <Row NarrativeStoryType="CCNE202E" NarrativeRewardType="CCNE202E_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE203B" NarrativeRewardType="CCNE203B_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE203B" NarrativeRewardType="CCNE203B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE203C" NarrativeRewardType="CCNE203C_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE203C" NarrativeRewardType="CCNE203C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE203D" NarrativeRewardType="CCNE203D_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE203D" NarrativeRewardType="CCNE203D_REWARD" Activation="START"/>
         <Row NarrativeStoryType="CCNE203E" NarrativeRewardType="CCNE203E_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE204B" NarrativeRewardType="CCNE204B_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE204B" NarrativeRewardType="CCNE204B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE204C" NarrativeRewardType="CCNE204C_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE204C" NarrativeRewardType="CCNE204C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE204D" NarrativeRewardType="CCNE204D_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE204D" NarrativeRewardType="CCNE204D_REWARD" Activation="START"/>
         <Row NarrativeStoryType="CCNE204E" NarrativeRewardType="CCNE204E_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE205B" NarrativeRewardType="CCNE205B_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE205B" NarrativeRewardType="CCNE205B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE205C" NarrativeRewardType="CCNE205C_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE205C" NarrativeRewardType="CCNE205C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE205D" NarrativeRewardType="CCNE205D_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE205D" NarrativeRewardType="CCNE205D_REWARD" Activation="START"/>
         <Row NarrativeStoryType="CCNE205E" NarrativeRewardType="CCNE205E_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE206B" NarrativeRewardType="CCNE206B_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE206B" NarrativeRewardType="CCNE206B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE206C" NarrativeRewardType="CCNE206C_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE206C" NarrativeRewardType="CCNE206C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE206D" NarrativeRewardType="CCNE206D_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE206D" NarrativeRewardType="CCNE206D_REWARD" Activation="START"/>
         <Row NarrativeStoryType="CCNE206E" NarrativeRewardType="CCNE206E_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE207B" NarrativeRewardType="CCNE207B_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE207B" NarrativeRewardType="CCNE207B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE207C" NarrativeRewardType="CCNE207C_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE207C" NarrativeRewardType="CCNE207C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE207D" NarrativeRewardType="CCNE207D_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE207D" NarrativeRewardType="CCNE207D_REWARD" Activation="START"/>
         <Row NarrativeStoryType="CCNE207E" NarrativeRewardType="CCNE207E_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE208B" NarrativeRewardType="CCNE208B_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE208B" NarrativeRewardType="CCNE208B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE208C" NarrativeRewardType="CCNE208C_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE208C" NarrativeRewardType="CCNE208C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE208D" NarrativeRewardType="CCNE208D_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE208D" NarrativeRewardType="CCNE208D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE208E" NarrativeRewardType="CCNE208E_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE208E" NarrativeRewardType="CCNE208E_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE208F" NarrativeRewardType="CCNE208F_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE208F" NarrativeRewardType="CCNE208F_REWARD" Activation="START"/>
         <Row NarrativeStoryType="CCNE208G" NarrativeRewardType="CCNE208G_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE209B" NarrativeRewardType="CCNE209B_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE209B" NarrativeRewardType="CCNE209B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE209C" NarrativeRewardType="CCNE209C_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE209C" NarrativeRewardType="CCNE209C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE209D" NarrativeRewardType="CCNE209D_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE209D" NarrativeRewardType="CCNE209D_REWARD" Activation="START"/>
         <Row NarrativeStoryType="CCNE209E" NarrativeRewardType="CCNE209E_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE2010B" NarrativeRewardType="CCNE2010B_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE2010B" NarrativeRewardType="CCNE2010B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE2010C" NarrativeRewardType="CCNE2010C_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE2010C" NarrativeRewardType="CCNE2010C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE2010D" NarrativeRewardType="CCNE2010D_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE2010D" NarrativeRewardType="CCNE2010D_REWARD" Activation="START"/>
         <Row NarrativeStoryType="CCNE2010E" NarrativeRewardType="CCNE2010E_REWARD" Activation="START"/>
     </NarrativeStory_Rewards>

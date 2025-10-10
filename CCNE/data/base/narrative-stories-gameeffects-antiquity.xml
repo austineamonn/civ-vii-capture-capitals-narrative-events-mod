@@ -191,7 +191,7 @@
     <Modifier id="CCNE105B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
         <SubjectRequirements>
             <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
-                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE102B</Argument>
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE105B</Argument>
                 <Argument name="Amount">1</Argument>
             </Requirement>
         </SubjectRequirements>
@@ -488,25 +488,25 @@
     <!-- Requirements and Requirement Sets -->
 
     <!-- Simple Requirement Set for Testing -->
-    <RequirementSet id="REQSET_CCNE101A_NARRATIVE">
+    <RequirementSet id="REQSET_CCNE102A_NARRATIVE">
         <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
             <Argument name="GossipTypes">GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01</Argument>
             <Argument name="GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01">Hash,ProgressionTreeNodeType,NODE_TECH_AQ_AGRICULTURE,Numeric,TreeDepth,1</Argument>
         </Requirement>
     </RequirementSet>
 
-    <!--<RequirementSet id="REQSET_CCNE101A_NARRATIVE">
+    <RequirementSet id="REQSET_CCNE101A_NARRATIVE">
         <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
             <Argument name="GossipTypes">GOSSIP_CONQUER_CITY01</Argument>
             <Argument name="GOSSIP_CONQUER_CITY01">Hash,IsCapital,True,Hash,OtherPlayer,Other,Hash,Civilization,CIVILIZATION_AKSUM</Argument>
         </Requirement>
-    </RequirementSet>-->
-    <RequirementSet id="REQSET_CCNE102A_NARRATIVE">
+    </RequirementSet>
+    <!--<RequirementSet id="REQSET_CCNE102A_NARRATIVE">
         <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
             <Argument name="GossipTypes">GOSSIP_CONQUER_CITY01</Argument>
             <Argument name="GOSSIP_CONQUER_CITY01">Hash,IsCapital,True,Hash,OtherPlayer,Other,Hash,Civilization,CIVILIZATION_EGYPT</Argument>
         </Requirement>
-    </RequirementSet>
+    </RequirementSet>-->
     <RequirementSet id="REQSET_CCNE103A_NARRATIVE">
         <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
             <Argument name="GossipTypes">GOSSIP_CONQUER_CITY01</Argument>

@@ -12,4 +12,4 @@ Works for all Base Civilizations and DLC Civilizations, and some modded Civiliza
 
 ## Latest Update:
 
-Added Qajar.
+Updated base exploration civs so that their traditions can be carried across ages.
