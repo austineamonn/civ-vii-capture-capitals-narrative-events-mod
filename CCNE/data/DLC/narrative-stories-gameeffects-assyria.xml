@@ -2,7 +2,6 @@
 <GameEffects xmlns="GameEffects">
 
     <!-- Modifiers -->
-
     <!-- Assyria -->
     <Modifier id="CCNE1011B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
 		<Argument name="Tradition">TRADITION_DURANI</Argument>

@@ -2,7 +2,7 @@
 
 Author: Austin Nicolas
 
-Version: 1.0.2
+Version: 1.0.3
 
 ## Current Mod:
 
@@ -12,4 +12,4 @@ Works for all Base Civilizations and DLC Civilizations, and some modded Civiliza
 
 ## Latest Update:
 
-Updated base exploration civs so that their traditions can be carried across ages.
+Updated base modern civs so that their traditions can be carried across ages.

@@ -81,7 +81,7 @@
         <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE2010C_REWARD" Activation="START"/>
         <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE2010D_REWARD" Activation="START"/>
         <!-- Modern -->
-        <!--<Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE301B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE301B_REWARD" Activation="START"/>
         <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE301C_REWARD" Activation="START"/>
         <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE301D_REWARD" Activation="START"/>
         <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE302B_REWARD" Activation="START"/>
@@ -117,7 +117,7 @@
         <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE3010B_REWARD" Activation="START"/>
         <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE3010C_REWARD" Activation="START"/>
         <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE3010D_REWARD" Activation="START"/>
-        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE3010E_REWARD" Activation="START"/>-->
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE3010E_REWARD" Activation="START"/>
     </NarrativeStory_Rewards>
     <NarrativeRewardIcons>
         <Row NarrativeStoryType="RETAIN_TRADITIONS_B" RewardIconType="TRADITION_SLOT"/>

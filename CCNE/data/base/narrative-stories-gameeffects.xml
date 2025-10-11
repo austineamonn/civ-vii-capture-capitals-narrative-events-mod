@@ -568,5 +568,17 @@
             <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE3013D</Argument>
             <Argument name="Amount">1</Argument>
         </Requirement>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+            <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE3014B</Argument>
+            <Argument name="Amount">1</Argument>
+        </Requirement>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+            <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE3014C</Argument>
+            <Argument name="Amount">1</Argument>
+        </Requirement>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+            <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE3014D</Argument>
+            <Argument name="Amount">1</Argument>
+        </Requirement>
     </RequirementSet>
 </GameEffects>
