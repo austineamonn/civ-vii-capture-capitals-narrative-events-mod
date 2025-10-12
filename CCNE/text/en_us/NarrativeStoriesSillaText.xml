@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Row Tag="LOC_CCNE1013A_STORYTITLE">
+            <Text>A Fallen Capital</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1013A_COMPLETION">
+            <Text>Troops march in as you topple the Silla Capital. As plans to assimilate the new citizens are laid out a fight breaks out. One general argues that the Silla might have some ideas worth borrowing, while another insists that differences must be ironed out to ensure cohesion.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1013B_NAME">
+            <Text>Let the farmers celebrate.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1013B_DESCRIPTION">
+            <Text>Unlock a unique Silla Tradition, {LOC_TRADITION_BEOPSEONG_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1013C_NAME">
+            <Text>Focus on trade alliances.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1013C_DESCRIPTION">
+            <Text>Unlock a unique Silla Tradition, {LOC_TRADITION_STRATEGIC_ALLIES_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1013D_NAME">
+            <Text>Focus on foreign resources to improve our technology.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1013D_DESCRIPTION">
+            <Text>Unlock a unique Silla Tradition, {LOC_TRADITION_THE_GOLDEN_ROAD_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1013E_NAME">
+            <Text>Add more resources to our trade centers.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1013E_DESCRIPTION">
+            <Text>Unlock a unique Silla Tradition, {LOC_TRADITION_SEORABEOL_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1013F_NAME">
+            <Text>Send the first general back to the field.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1013F_DESCRIPTION">
+            <Text>Free Promotion on a Commander.</Text>
+        </Row>
+    </EnglishText>
+</Database>

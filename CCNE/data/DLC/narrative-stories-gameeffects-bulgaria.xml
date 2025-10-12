@@ -48,17 +48,10 @@
 
     <!-- Requirements and Requirement Sets -->
 
-    <!--<RequirementSet id="REQSET_CCNE2011A_NARRATIVE">
+    <RequirementSet id="REQSET_CCNE2011A_NARRATIVE">
         <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
             <Argument name="GossipTypes">GOSSIP_CONQUER_CITY01</Argument>
             <Argument name="GOSSIP_CONQUER_CITY01">Hash,IsCapital,True,Hash,OtherPlayer,Other,Hash,Civilization,CIVILIZATION_BULGARIA</Argument>
-        </Requirement>
-    </RequirementSet>-->
-
-    <RequirementSet id="REQSET_CCNE2011A_NARRATIVE">
-        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
-            <Argument name="GossipTypes">GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01</Argument>
-            <Argument name="GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01">Hash,ProgressionTreeNodeType,NODE_CIVIC_EX_MAIN_PIETY,Numeric,TreeDepth,1</Argument>
         </Requirement>
     </RequirementSet>
 </GameEffects>

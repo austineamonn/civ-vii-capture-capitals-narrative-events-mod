@@ -51,7 +51,7 @@
         </Requirement>
 	</RequirementSet>
 
-    <!-- Ensure player conquered capitals and picked policies -->
+    <!-- Ensure player conquered capitals and picked policies. Contains Modded and DLC Civs, since check does not require narrative tag to exist. -->
      <RequirementSet id="SUBREQSET_RETAIN_TRADITIONS_CHECK_TAGS" type="REQUIREMENTSET_TEST_ANY">
         <!-- Antiquity -->
     	<Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
@@ -212,6 +212,22 @@
         </Requirement>
         <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
             <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE1012D</Argument>
+            <Argument name="Amount">1</Argument>
+        </Requirement>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+            <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE1013B</Argument>
+            <Argument name="Amount">1</Argument>
+        </Requirement>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+            <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE1013C</Argument>
+            <Argument name="Amount">1</Argument>
+        </Requirement>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+            <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE1013D</Argument>
+            <Argument name="Amount">1</Argument>
+        </Requirement>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+            <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE1013E</Argument>
             <Argument name="Amount">1</Argument>
         </Requirement>
         <!-- Exploration -->

@@ -527,12 +527,12 @@
     <!-- Requirements and Requirement Sets -->
 
     <!-- Simple Requirement Set for Testing -->
-    <RequirementSet id="REQSET_CCNE305A_NARRATIVE">
+    <!--<RequirementSet id="REQSET_CCNE308A_NARRATIVE">
         <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
             <Argument name="GossipTypes">GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01</Argument>
             <Argument name="GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01">Hash,ProgressionTreeNodeType,NODE_CIVIC_MO_MAIN_MODERNIZATION,Numeric,TreeDepth,1</Argument>
         </Requirement>
-    </RequirementSet>
+    </RequirementSet>-->
 
     <RequirementSet id="REQSET_CCNE301A_NARRATIVE">
         <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
@@ -558,12 +558,12 @@
             <Argument name="GOSSIP_CONQUER_CITY01">Hash,IsCapital,True,Hash,OtherPlayer,Other,Hash,Civilization,CIVILIZATION_MEIJI</Argument>
         </Requirement>
     </RequirementSet>
-    <!--<RequirementSet id="REQSET_CCNE305A_NARRATIVE">
+    <RequirementSet id="REQSET_CCNE305A_NARRATIVE">
         <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
             <Argument name="GossipTypes">GOSSIP_CONQUER_CITY01</Argument>
             <Argument name="GOSSIP_CONQUER_CITY01">Hash,IsCapital,True,Hash,OtherPlayer,Other,Hash,Civilization,CIVILIZATION_MEXICO</Argument>
         </Requirement>
-    </RequirementSet>-->
+    </RequirementSet>
     <RequirementSet id="REQSET_CCNE306A_NARRATIVE">
         <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
             <Argument name="GossipTypes">GOSSIP_CONQUER_CITY01</Argument>
