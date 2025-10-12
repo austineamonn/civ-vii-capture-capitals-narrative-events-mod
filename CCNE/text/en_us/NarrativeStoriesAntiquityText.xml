@@ -113,7 +113,7 @@
             <Text>Let religious leaders influence policy.</Text>
         </Row>
         <Row Tag="LOC_CCNE104C_DESCRIPTION">
-            <Text>Unlock a unique Han Tradition, {LOC_TRADITION_JIU_Mississippian_DESCRIPTION}</Text>
+            <Text>Unlock a unique Han Tradition, {LOC_TRADITION_JIU_QING_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE104D_NAME">
             <Text>Educate city workers.</Text>

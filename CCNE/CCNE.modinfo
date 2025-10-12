@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="capture_capital_narrative_events" version="1.0.3"
+<Mod id="capture_capital_narrative_events" version="1.0.4"
 	xmlns="ModInfo">
 	<Properties>
 		<Name>LOC_MODULE_CCNE_NAME</Name>
@@ -16,7 +16,6 @@
 		<Mod id="bulgaria" title="LOC_MODULE_BULGARIA_NAME"/>
 		<Mod id="carthage" title="LOC_MODULE_CARTHAGE_NAME"/>
 		<Mod id="dai-viet" title="LOC_MODULE_DAI_VIET_NAME"/>
-		<Mod id="earth-kingdom" title="LOC_MODULE_EARTH_KINGDOM_NAME"/>
 		<Mod id="great-britain" title="LOC_MODULE_GREAT_BRITAIN_NAME"/>
 		<Mod id="nepal" title="LOC_MODULE_NEPAL_NAME"/>
 		<Mod id="qajar" title="LOC_MODULE_QAJAR_NAME"/>
@@ -41,7 +40,7 @@
             <ModInUse>dai-viet</ModInUse>
         </Criteria>
         <Criteria id="earth-kingdom-enable" all="true">
-            <ModInUse>earth-kingdom</ModInUse>
+            <ModInUse>earth_kingdom</ModInUse>
         </Criteria>
 		<Criteria id="great-britain-enable" all="true">
             <ModInUse>great-britain</ModInUse>

@@ -8,10 +8,10 @@
             <Text>Troops march in as you topple the Earth Kingdom Capital. As plans to assimilate the new citizens are laid out a fight breaks out. One general argues that the Earth Kingdom citizens might have some ideas worth borrowing, while another insists that differences must be ironed out to ensure cohesion.</Text>
         </Row>
         <Row Tag="LOC_CCNE3011B_NAME">
-            <Text>Expand our great cities.</Text>
+            <Text>Sell off our excess food.</Text>
         </Row>
         <Row Tag="LOC_CCNE3011B_DESCRIPTION">
-            <Text>Unlock a unique Earth Kingdom Tradition, {LOC_TRADITION_EARTH_KINGDOM_CONSTRUCTION_MANDATE_DESCRIPTION}</Text>
+            <Text>Unlock a unique Earth Kingdom Tradition, {LOC_TRADITION_EARTH_KINGDOM_EXCESSIVE_TAX_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE3011C_NAME">
             <Text>Demand food offerings for our great leader.</Text>
