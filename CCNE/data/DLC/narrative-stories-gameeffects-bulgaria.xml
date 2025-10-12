@@ -4,24 +4,61 @@
     <!-- Modifiers -->
     <!-- Bulgaria -->
     <Modifier id="CCNE2011B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE2011B</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_FALSE_RETREAT</Argument>
 	</Modifier>
+    <Modifier id="CCNE2011B_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE2011B</Argument>
+    </Modifier>
     <Modifier id="CCNE2011C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE2011C</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_ICONOLATRY</Argument>
 	</Modifier>
+    <Modifier id="CCNE2011C_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE2011C</Argument>
+    </Modifier>
     <Modifier id="CCNE2011D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE2011D</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_STRATAGEMS</Argument>
 	</Modifier>
+    <Modifier id="CCNE2011D_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE2011D</Argument>
+    </Modifier>
     <Modifier id="CCNE2011E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>
     </Modifier>
 
     <!-- Requirements and Requirement Sets -->
 
-    <RequirementSet id="REQSET_CCNE2011A_NARRATIVE">
+    <!--<RequirementSet id="REQSET_CCNE2011A_NARRATIVE">
         <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
             <Argument name="GossipTypes">GOSSIP_CONQUER_CITY01</Argument>
             <Argument name="GOSSIP_CONQUER_CITY01">Hash,IsCapital,True,Hash,OtherPlayer,Other,Hash,Civilization,CIVILIZATION_BULGARIA</Argument>
+        </Requirement>
+    </RequirementSet>-->
+
+    <RequirementSet id="REQSET_CCNE2011A_NARRATIVE">
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01</Argument>
+            <Argument name="GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01">Hash,ProgressionTreeNodeType,NODE_CIVIC_EX_MAIN_PIETY,Numeric,TreeDepth,1</Argument>
         </Requirement>
     </RequirementSet>
 </GameEffects>

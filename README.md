@@ -2,7 +2,7 @@
 
 Author: Austin Nicolas
 
-Version: 1.0.4
+Version: 1.0.5
 
 ## Current Mod:
 
@@ -12,4 +12,4 @@ Works for all Base Civilizations and DLC Civilizations, and some modded Civiliza
 
 ## Latest Update:
 
-Updated Earth Kingdom modded civ so that their traditions can be carried across ages.
+Updated Assyria, Bulgaria, and Great Britain DLC civs so that their traditions can be carried across ages.

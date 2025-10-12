@@ -4,14 +4,44 @@
     <!-- Modifiers -->
     <!-- Assyria -->
     <Modifier id="CCNE1011B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE1011B</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_DURANI</Argument>
 	</Modifier>
+    <Modifier id="CCNE1011B_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE1011B</Argument>
+    </Modifier>
     <Modifier id="CCNE1011C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE1011C</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_MIHISTU</Argument>
 	</Modifier>
+    <Modifier id="CCNE1011C_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE1011C</Argument>
+    </Modifier>
     <Modifier id="CCNE1011D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE1011D</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
 		<Argument name="Tradition">TRADITION_GIRRU</Argument>
 	</Modifier>
+    <Modifier id="CCNE1011D_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE1011D</Argument>
+    </Modifier>
     <Modifier id="CCNE1011E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>
     </Modifier>

@@ -27,11 +27,17 @@
         <Row NarrativeRewardType="CCNE1011C_REWARD" ModifierID="CCNE1011C_NARRATIVE_MODIFIER"/>
         <Row NarrativeRewardType="CCNE1011D_REWARD" ModifierID="CCNE1011D_NARRATIVE_MODIFIER"/>
         <Row NarrativeRewardType="CCNE1011E_REWARD" ModifierID="CCNE1011E_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="CCNE1011B_REWARD_TAG" ModifierID="CCNE1011B_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE1011C_REWARD_TAG" ModifierID="CCNE1011C_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE1011D_REWARD_TAG" ModifierID="CCNE1011D_NARRATIVE_MODIFIER_TAG"/>
     </NarrativeRewards>
     <NarrativeStory_Rewards>
         <!-- Capital Captured -->
+        <Row NarrativeStoryType="CCNE1011B" NarrativeRewardType="CCNE1011B_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE1011B" NarrativeRewardType="CCNE1011B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE1011C" NarrativeRewardType="CCNE1011C_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE1011C" NarrativeRewardType="CCNE1011C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE1011D" NarrativeRewardType="CCNE1011D_REWARD_TAG" Activation="START"/>
         <Row NarrativeStoryType="CCNE1011D" NarrativeRewardType="CCNE1011D_REWARD" Activation="START"/>
         <Row NarrativeStoryType="CCNE1011E" NarrativeRewardType="CCNE1011E_REWARD" Activation="START"/>
         <!-- Retain Traditions -->
