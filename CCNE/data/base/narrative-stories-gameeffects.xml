@@ -10,7 +10,7 @@
             <Argument name="RequirementSetId">SUBREQSET_RETAIN_TRADITIONS_CHECK_AGE</Argument>
         </Requirement>
         <Requirement type="REQUIREMENT_GAME_TURN_IS_X_NARRATIVE">
-            <Argument name="AfterTurn">1</Argument>
+            <Argument name="Turn">1</Argument>
         </Requirement>
         <Requirement type="REQUIREMENT_REQUIREMENTSET_IS_MET">
             <Argument name="RequirementSetId">SUBREQSET_RETAIN_TRADITIONS_CHECK_TAGS</Argument>

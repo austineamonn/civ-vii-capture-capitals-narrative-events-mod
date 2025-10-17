@@ -2,7 +2,7 @@
 
 Author: Austin Nicolas
 
-Version: 1.1
+Version: 1.1.1
 
 ## Current Mod:
 
@@ -12,4 +12,4 @@ Works for all Base Civilizations and DLC Civilizations, and some modded Civiliza
 
 ## Latest Update:
 
-Finished updating all civs so that their traditions can be carried across ages.
+Fixed bug where narrative event granting policies from previous ages would occur on turns after turn one.
