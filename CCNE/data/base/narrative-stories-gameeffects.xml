@@ -51,7 +51,7 @@
         </Requirement>
 	</RequirementSet>
 
-    <!-- Ensure player conquered capitals and picked policies. Contains Modded and DLC Civs, since check does not require narrative tag to exist. -->
+    <!-- Ensure player conquered capitals and picked policies. Contains DLC Civs, since check does not require narrative tag to exist. -->
      <RequirementSet id="SUBREQSET_RETAIN_TRADITIONS_CHECK_TAGS" type="REQUIREMENTSET_TEST_ANY">
         <!-- Antiquity -->
     	<Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
@@ -230,6 +230,34 @@
             <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE1013E</Argument>
             <Argument name="Amount">1</Argument>
         </Requirement>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+            <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE1014B</Argument>
+            <Argument name="Amount">1</Argument>
+        </Requirement>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+            <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE1014C</Argument>
+            <Argument name="Amount">1</Argument>
+        </Requirement>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+            <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE1014D</Argument>
+            <Argument name="Amount">1</Argument>
+        </Requirement>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+            <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE1014E</Argument>
+            <Argument name="Amount">1</Argument>
+        </Requirement>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+            <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE1015B</Argument>
+            <Argument name="Amount">1</Argument>
+        </Requirement>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+            <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE1015C</Argument>
+            <Argument name="Amount">1</Argument>
+        </Requirement>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+            <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE1015D</Argument>
+            <Argument name="Amount">1</Argument>
+        </Requirement>
         <!-- Exploration -->
     	<Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
             <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE201B</Argument>
@@ -393,6 +421,18 @@
         </Requirement>
         <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
             <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE2013D</Argument>
+            <Argument name="Amount">1</Argument>
+        </Requirement>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+            <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE2014B</Argument>
+            <Argument name="Amount">1</Argument>
+        </Requirement>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+            <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE2014C</Argument>
+            <Argument name="Amount">1</Argument>
+        </Requirement>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+            <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE2014D</Argument>
             <Argument name="Amount">1</Argument>
         </Requirement>
         <!-- Modern -->

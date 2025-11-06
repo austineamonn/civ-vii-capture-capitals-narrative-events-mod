@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Row Tag="LOC_CCNE1015A_STORYTITLE">
+            <Text>A Fallen Capital</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1015A_COMPLETION">
+            <Text>Troops march in as you topple the Tongan Capital. As plans to assimilate the new citizens are laid out a fight breaks out. One general argues that the Tongan people might have some ideas worth borrowing, while another insists that differences must be ironed out to ensure cohesion.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1015B_NAME">
+            <Text>Paint more still lifes.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1015B_DESCRIPTION">
+            <Text>Unlock a unique Tongan Tradition, {LOC_TRADITION_NGATU_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1015C_NAME">
+            <Text>We must increase our trade partners.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1015C_DESCRIPTION">
+            <Text>Unlock a unique Tongan Tradition, {LOC_TRADITION_TONGIAKI_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1015D_NAME">
+            <Text>Let us educate the fisherfolk.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1015D_DESCRIPTION">
+            <Text>Unlock a unique Tongan Tradition, {LOC_TRADITION_TAKUAKA_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1015E_NAME">
+            <Text>Send the first general back to the field.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE1015E_DESCRIPTION">
+            <Text>Free Promotion on a Commander.</Text>
+        </Row>
+    </EnglishText>
+</Database>

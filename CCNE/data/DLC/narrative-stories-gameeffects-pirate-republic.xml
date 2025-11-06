@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+
+    <!-- Modifiers -->
+    <!-- Bulgaria -->
+    <Modifier id="CCNE2014B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE2014B</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
+		<Argument name="Tradition">TRADITION_PRESS_GANGS</Argument>
+	</Modifier>
+    <Modifier id="CCNE2014B_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE2014B</Argument>
+    </Modifier>
+    <Modifier id="CCNE2014C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE2014C</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
+		<Argument name="Tradition">TRADITION_MERRY_LIFE_AND_A_SHORT_ONE</Argument>
+	</Modifier>
+    <Modifier id="CCNE2014C_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE2014C</Argument>
+    </Modifier>
+    <Modifier id="CCNE2014D_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+                <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE2014D</Argument>
+                <Argument name="Amount">1</Argument>
+            </Requirement>
+        </SubjectRequirements>
+		<Argument name="Tradition">TRADITION_BLACK_FLAG</Argument>
+	</Modifier>
+    <Modifier id="CCNE2014D_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CCNE2014D</Argument>
+    </Modifier>
+    <Modifier id="CCNE2014E_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER_COMMANDER_NEAREST_STORY" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+    </Modifier>
+
+    <!-- Requirements and Requirement Sets -->
+
+    <RequirementSet id="REQSET_CCNE2014A_NARRATIVE">
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONQUER_CITY01</Argument>
+            <Argument name="GOSSIP_CONQUER_CITY01">Hash,IsCapital,True,Hash,OtherPlayer,Other,Hash,Civilization,CIVILIZATION_PIRATE_REPUBLIC</Argument>
+        </Requirement>
+    </RequirementSet>
+</GameEffects>

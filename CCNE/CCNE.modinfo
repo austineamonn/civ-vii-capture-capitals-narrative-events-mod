@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="capture_capital_narrative_events" version="1.1.1"
+<Mod id="capture_capital_narrative_events" version="1.2"
 	xmlns="ModInfo">
 	<Properties>
 		<Name>LOC_MODULE_CCNE_NAME</Name>
 		<Description>LOC_MODULE_CCNE_DESCRIPTION</Description>
-		<Authors>Austin Nicolas</Authors>
+		<Authors>austineamonn</Authors>
 		<Package>DLC</Package>
 		<AffectsSavedGames>1</AffectsSavedGames>
 	</Properties>
@@ -18,15 +18,17 @@
 		<Mod id="dai-viet" title="LOC_MODULE_DAI_VIET_NAME"/>
 		<Mod id="great-britain" title="LOC_MODULE_GREAT_BRITAIN_NAME"/>
 		<Mod id="nepal" title="LOC_MODULE_NEPAL_NAME"/>
+		<Mod id="pirate-republic" title="LOC_MODULE_PIRATE_REPUBLIC_NAME"/>
 		<Mod id="qajar" title="LOC_MODULE_QAJAR_NAME"/>
 		<Mod id="shawnee-tecumseh" title="LOC_MODULE_SHAWNEE_TECUMSEH_NAME"/>
 		<Mod id="silla" title="LOC_MODULE_SILLA_NAME"/>
+		<Mod id="tonga" title="LOC_MODULE_TONGA_NAME"/>
 	</References>
 	<ActionCriteria>
 		<Criteria id="always">
 			<AlwaysMet></AlwaysMet>
 		</Criteria>
-		<!--DLC and Modded Civs-->
+		<!--DLC Civs-->
 		<Criteria id="assyria-enable" all="true">
             <ModInUse>assyria</ModInUse>
         </Criteria>
@@ -39,14 +41,14 @@
 		<Criteria id="dai-viet-enable" all="true">
             <ModInUse>dai-viet</ModInUse>
         </Criteria>
-        <Criteria id="earth-kingdom-enable" all="true">
-            <ModInUse>earth_kingdom</ModInUse>
-        </Criteria>
 		<Criteria id="great-britain-enable" all="true">
             <ModInUse>great-britain</ModInUse>
         </Criteria>
 		<Criteria id="nepal-enable" all="true">
             <ModInUse>nepal</ModInUse>
+        </Criteria>
+		<Criteria id="pirate-republic-enable" all="true">
+            <ModInUse>pirate-republic</ModInUse>
         </Criteria>
 		<Criteria id="qajar-enable" all="true">
             <ModInUse>qajar</ModInUse>
@@ -57,9 +59,12 @@
 		<Criteria id="silla-enable" all="true">
             <ModInUse>silla</ModInUse>
         </Criteria>
+		<Criteria id="tonga-enable" all="true">
+            <ModInUse>tonga</ModInUse>
+        </Criteria>
 	</ActionCriteria>
 	<ActionGroups>
-		<!-- DLC and Modded Civ's Compatibility -->
+		<!-- DLC Civ Compatibility -->
 		<ActionGroup id="base-game-main-assyria" scope="game" criteria="assyria-enable">
 			<Actions>
                 <UpdateDatabase>
@@ -104,17 +109,6 @@
 				</UpdateText>
             </Actions>
 		</ActionGroup>
-		<ActionGroup id="base-game-main-earth-kingdom" scope="game" criteria="earth-kingdom-enable">
-			<Actions>
-                <UpdateDatabase>
-					<Item>data/custom/narrative-stories-earth-kingdom.xml</Item>
-					<Item>data/custom/narrative-stories-gameeffects-earth-kingdom.xml</Item>
-                </UpdateDatabase>
-				<UpdateText>
-					<Item>text/en_us/NarrativeStoriesEarthKingdomText.xml</Item>
-				</UpdateText>
-            </Actions>
-		</ActionGroup>
 		<ActionGroup id="base-game-main-great-britain" scope="game" criteria="great-britain-enable">
 			<Actions>
                 <UpdateDatabase>
@@ -134,6 +128,17 @@
                 </UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/NarrativeStoriesNepalText.xml</Item>
+				</UpdateText>
+            </Actions>
+		</ActionGroup>
+		<ActionGroup id="base-game-main-pirate-republic" scope="game" criteria="pirate-republic-enable">
+			<Actions>
+                <UpdateDatabase>
+					<Item>data/DLC/narrative-stories-pirate-republic.xml</Item>
+					<Item>data/DLC/narrative-stories-gameeffects-pirate-republic.xml</Item>
+                </UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/NarrativeStoriesPirateRepublicText.xml</Item>
 				</UpdateText>
             </Actions>
 		</ActionGroup>
@@ -167,6 +172,17 @@
                 </UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/NarrativeStoriesSillaText.xml</Item>
+				</UpdateText>
+            </Actions>
+		</ActionGroup>
+		<ActionGroup id="base-game-main-tonga" scope="game" criteria="tonga-enable">
+			<Actions>
+                <UpdateDatabase>
+					<Item>data/DLC/narrative-stories-tonga.xml</Item>
+					<Item>data/DLC/narrative-stories-gameeffects-tonga.xml</Item>
+                </UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/NarrativeStoriesTongaText.xml</Item>
 				</UpdateText>
             </Actions>
 		</ActionGroup>

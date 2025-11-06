@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <Types>
+        <Row Type="CCNE2014A" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CCNE2014B" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CCNE2014C" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CCNE2014D" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CCNE2014E" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="NARRATIVE_TAG_CCNE2014B" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE2014C" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CCNE2014D" Kind="KIND_NARRATIVE_TAG"/>
+    </Types>
+    <NarrativeTags>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE2014B"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE2014C"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CCNE2014D"/>
+    </NarrativeTags>
+    <NarrativeStories>
+        <Row NarrativeStoryType="CCNE2014A" Name="LOC_CCNE2014A_NAME" Description="LOC_CCNE2014A_DESCRIPTION" Completion="LOC_CCNE2014A_COMPLETION" StoryTitle="LOC_CCNE2014A_STORYTITLE" Age="AGE_EXPLORATION" Activation="AUTO" RequirementSetId="REQSET_CCNE2014A_NARRATIVE" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CCNE2014B" Name="LOC_CCNE2014B_NAME" Description="LOC_CCNE2014B_DESCRIPTION" Completion="LOC_CCNE2014B_COMPLETION" Age="AGE_EXPLORATION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met"/>
+        <Row NarrativeStoryType="CCNE2014C" Name="LOC_CCNE2014C_NAME" Description="LOC_CCNE2014C_DESCRIPTION" Completion="LOC_CCNE2014C_COMPLETION" Age="AGE_EXPLORATION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met"/>
+        <Row NarrativeStoryType="CCNE2014D" Name="LOC_CCNE2014D_NAME" Description="LOC_CCNE2014D_DESCRIPTION" Completion="LOC_CCNE2014D_COMPLETION" Age="AGE_EXPLORATION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met"/>
+        <Row NarrativeStoryType="CCNE2014E" Name="LOC_CCNE2014E_NAME" Description="LOC_CCNE2014E_DESCRIPTION" Completion="LOC_CCNE2014E_COMPLETION" Age="AGE_EXPLORATION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met"/>
+    </NarrativeStories>
+    <NarrativeRewards>
+        <Row NarrativeRewardType="CCNE2014B_REWARD" ModifierID="CCNE2014B_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="CCNE2014C_REWARD" ModifierID="CCNE2014C_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="CCNE2014D_REWARD" ModifierID="CCNE2014D_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="CCNE2014E_REWARD" ModifierID="CCNE2014E_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="CCNE2014B_REWARD_TAG" ModifierID="CCNE2014B_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE2014C_REWARD_TAG" ModifierID="CCNE2014C_NARRATIVE_MODIFIER_TAG"/>
+        <Row NarrativeRewardType="CCNE2014D_REWARD_TAG" ModifierID="CCNE2014D_NARRATIVE_MODIFIER_TAG"/>
+    </NarrativeRewards>
+    <NarrativeStory_Rewards>
+        <!-- Capital Captured -->
+        <Row NarrativeStoryType="CCNE2014B" NarrativeRewardType="CCNE2014B_REWARD_TAG" Activation="START"/>
+        <Row NarrativeStoryType="CCNE2014B" NarrativeRewardType="CCNE2014B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE2014C" NarrativeRewardType="CCNE2014C_REWARD_TAG" Activation="START"/>
+        <Row NarrativeStoryType="CCNE2014C" NarrativeRewardType="CCNE2014C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE2014D" NarrativeRewardType="CCNE2014D_REWARD_TAG" Activation="START"/>
+        <Row NarrativeStoryType="CCNE2014D" NarrativeRewardType="CCNE2014D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CCNE2014E" NarrativeRewardType="CCNE2014E_REWARD" Activation="START"/>
+        <!-- Retain Traditions -->
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE2014B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE2014C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="RETAIN_TRADITIONS_B" NarrativeRewardType="CCNE2014D_REWARD" Activation="START"/>
+    </NarrativeStory_Rewards>
+    <NarrativeRewardIcons>
+        <Row NarrativeStoryType="CCNE2014B" RewardIconType="TRADITION_SLOT"/>
+        <Row NarrativeStoryType="CCNE2014C" RewardIconType="TRADITION_SLOT"/>
+        <Row NarrativeStoryType="CCNE2014D" RewardIconType="TRADITION_SLOT"/>
+        <Row NarrativeStoryType="CCNE2014E" RewardIconType="PROMOTION"/>
+    </NarrativeRewardIcons>
+    <NarrativeStory_TextReplacements>
+        <Row NarrativeStoryType="CCNE2014B" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="CCNE2014C" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="CCNE2014D" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="CCNE2014E" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+    </NarrativeStory_TextReplacements>
+    <NarrativeStory_Links>
+        <Row FromNarrativeStoryType="CCNE2014A" ToNarrativeStoryType="CCNE2014B" Priority="0" Name="LOC_CCNE2014B_NAME" Description="LOC_CCNE2014B_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="CCNE2014A" ToNarrativeStoryType="CCNE2014C" Priority="1" Name="LOC_CCNE2014C_NAME" Description="LOC_CCNE2014C_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="CCNE2014A" ToNarrativeStoryType="CCNE2014D" Priority="1" Name="LOC_CCNE2014D_NAME" Description="LOC_CCNE2014D_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="CCNE2014A" ToNarrativeStoryType="CCNE2014E" Priority="1" Name="LOC_CCNE2014E_NAME" Description="LOC_CCNE2014E_DESCRIPTION"/>
+    </NarrativeStory_Links>
+</Database>

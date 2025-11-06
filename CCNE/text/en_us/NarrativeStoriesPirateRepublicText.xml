@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Row Tag="LOC_CCNE2014A_STORYTITLE">
+            <Text>A Fallen Capital</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2014A_COMPLETION">
+            <Text>Troops march in as you topple the Pirate Capital. As plans to assimilate the new citizens are laid out a fight breaks out. One general argues that the Pirates might have some ideas worth borrowing, while another insists that differences must be ironed out to ensure cohesion.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2014B_NAME">
+            <Text>Train more commanders to lead our great navy.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2014B_DESCRIPTION">
+            <Text>Unlock a unique Pirate Tradition, {LOC_TRADITION_PRESS_GANGS_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2014C_NAME">
+            <Text>Put bounties on our enemies.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2014C_DESCRIPTION">
+            <Text>Unlock a unique Pirate Tradition, {LOC_TRADITION_MERRY_LIFE_AND_A_SHORT_ONE_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2014D_NAME">
+            <Text>Set up a Naval Blockade.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2014D_DESCRIPTION">
+            <Text>Unlock a unique Pirate Tradition, {LOC_TRADITION_BLACK_FLAG_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2014E_NAME">
+            <Text>Send the first general back to the field.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2014E_DESCRIPTION">
+            <Text>Free Promotion on a Commander.</Text>
+        </Row>
+    </EnglishText>
+</Database>
