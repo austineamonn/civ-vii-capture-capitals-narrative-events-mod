@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Row Tag="LOC_CCNE2015A_STORYTITLE">
+            <Text>A Fallen Capital</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2015A_COMPLETION">
+            <Text>Troops march in as you topple the Icelandic Capital. As plans to assimilate the new citizens are laid out a fight breaks out. One general argues that the Icelanders might have some ideas worth borrowing, while another insists that differences must be ironed out to ensure cohesion.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2015B_NAME">
+            <Text>Our mighty ships have stories to tell.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2015B_DESCRIPTION">
+            <Text>Unlock a unique Icelandic Tradition, {LOC_TRADITION_DREKAHOFUD_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2015C_NAME">
+            <Text>We needn't fear the volcanoes now.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2015C_DESCRIPTION">
+            <Text>Unlock a unique Icelandic Tradition, {LOC_TRADITION_REIDI_GUDANNA_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2015D_NAME">
+            <Text>Our raiders return with mighty tales and poems.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2015D_DESCRIPTION">
+            <Text>Unlock a unique Icelandic Tradition, {LOC_TRADITION_DROTTKVAETT_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2015E_NAME">
+            <Text>We must fund medicinal supplies for our navy.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2015E_DESCRIPTION">
+            <Text>Unlock a unique Icelandic Tradition, {LOC_TRADITION_LYFSTEINN_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2015F_NAME">
+            <Text>Send the first general back to the field.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE2015F_DESCRIPTION">
+            <Text>Free Promotion on a Commander.</Text>
+        </Row>
+    </EnglishText>
+</Database>

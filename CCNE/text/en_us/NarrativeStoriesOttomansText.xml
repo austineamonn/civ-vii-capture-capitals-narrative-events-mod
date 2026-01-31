@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Row Tag="LOC_CCNE3015A_STORYTITLE">
+            <Text>A Fallen Capital</Text>
+        </Row>
+        <Row Tag="LOC_CCNE3015A_COMPLETION">
+            <Text>Troops march in as you topple the Ottoman Capital. As plans to assimilate the new citizens are laid out a fight breaks out. One general argues that the Ottomans might have some ideas worth borrowing, while another insists that differences must be ironed out to ensure cohesion.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE3015B_NAME">
+            <Text>It is just a flesh wound, our troops will fight on.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE3015B_DESCRIPTION">
+            <Text>Unlock a unique Ottomans Tradition, {LOC_TRADITION_ERKAN_I_HARBIYE_MEKTEBI_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE3015C_NAME">
+            <Text>Our empire's artists bring levity to these trying times.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE3015C_DESCRIPTION">
+            <Text>Unlock a unique Ottomans Tradition, {LOC_TRADITION_OSMANLI_BAROK_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE3015D_NAME">
+            <Text>Do we make joyous art because we are happy? or are we happy because we make joyous art?</Text>
+        </Row>
+        <Row Tag="LOC_CCNE3015D_DESCRIPTION">
+            <Text>Unlock a unique Ottomans Tradition, {LOC_TRADITION_SEDEF_KAKMA_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE3015E_NAME">
+            <Text>Knocking down wall reinvigorates our troops.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE3015E_DESCRIPTION">
+            <Text>Unlock a unique Ottomans Tradition, {LOC_TRADITION_SIEGE_TRAIN_DESCRIPTION}</Text>
+        </Row>
+        <Row Tag="LOC_CCNE3015F_NAME">
+            <Text>Send the first general back to the field.</Text>
+        </Row>
+        <Row Tag="LOC_CCNE3015F_DESCRIPTION">
+            <Text>Free Promotion on a Commander.</Text>
+        </Row>
+    </EnglishText>
+</Database>

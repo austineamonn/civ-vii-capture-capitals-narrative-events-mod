@@ -2,7 +2,7 @@
 
 Author: austineamonn
 
-Version: 1.2
+Version: 1.3
 
 ## Current Mod:
 
@@ -12,4 +12,4 @@ Works for all Base Civilizations and DLC Civilizations.
 
 ## Latest Update:
 
-Added Tonga and the Pirate Republic.
+Added Iceland and the Ottomans.

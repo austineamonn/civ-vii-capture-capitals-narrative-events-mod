@@ -17,7 +17,9 @@
 		<Mod id="carthage" title="LOC_MODULE_CARTHAGE_NAME"/>
 		<Mod id="dai-viet" title="LOC_MODULE_DAI_VIET_NAME"/>
 		<Mod id="great-britain" title="LOC_MODULE_GREAT_BRITAIN_NAME"/>
+		<Mod id="iceland" title="LOC_MODULE_ICELAND_NAME"/>
 		<Mod id="nepal" title="LOC_MODULE_NEPAL_NAME"/>
+		<Mod id="ottomans" title="LOC_MODULE_OTTOMAN_NAME"/>
 		<Mod id="pirate-republic" title="LOC_MODULE_PIRATE_REPUBLIC_NAME"/>
 		<Mod id="qajar" title="LOC_MODULE_QAJAR_NAME"/>
 		<Mod id="shawnee-tecumseh" title="LOC_MODULE_SHAWNEE_TECUMSEH_NAME"/>
@@ -44,8 +46,14 @@
 		<Criteria id="great-britain-enable" all="true">
             <ModInUse>great-britain</ModInUse>
         </Criteria>
+		<Criteria id="iceland-enable" all="true">
+            <ModInUse>iceland</ModInUse>
+        </Criteria>
 		<Criteria id="nepal-enable" all="true">
             <ModInUse>nepal</ModInUse>
+        </Criteria>
+		<Criteria id="ottomans-enable" all="true">
+            <ModInUse>ottomans</ModInUse>
         </Criteria>
 		<Criteria id="pirate-republic-enable" all="true">
             <ModInUse>pirate-republic</ModInUse>
@@ -120,6 +128,17 @@
 				</UpdateText>
             </Actions>
 		</ActionGroup>
+		<ActionGroup id="base-game-main-iceland" scope="game" criteria="iceland-enable">
+			<Actions>
+                <UpdateDatabase>
+					<Item>data/DLC/narrative-stories-iceland.xml</Item>
+					<Item>data/DLC/narrative-stories-gameeffects-iceland.xml</Item>
+                </UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/NarrativeStoriesIcelandText.xml</Item>
+				</UpdateText>
+            </Actions>
+		</ActionGroup>
 		<ActionGroup id="base-game-main-nepal" scope="game" criteria="nepal-enable">
 			<Actions>
                 <UpdateDatabase>
@@ -128,6 +147,17 @@
                 </UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/NarrativeStoriesNepalText.xml</Item>
+				</UpdateText>
+            </Actions>
+		</ActionGroup>
+		<ActionGroup id="base-game-main-ottomans" scope="game" criteria="ottomans-enable">
+			<Actions>
+                <UpdateDatabase>
+					<Item>data/DLC/narrative-stories-ottomans.xml</Item>
+					<Item>data/DLC/narrative-stories-gameeffects-ottomans.xml</Item>
+                </UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/NarrativeStoriesOttomansText.xml</Item>
 				</UpdateText>
             </Actions>
 		</ActionGroup>
