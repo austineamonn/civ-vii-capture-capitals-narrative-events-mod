@@ -2,7 +2,7 @@
 
 Author: austineamonn
 
-Version: 1.3
+Version: 1.3.1
 
 ## Current Mod:
 
@@ -12,4 +12,4 @@ Works for all Base Civilizations and DLC Civilizations.
 
 ## Latest Update:
 
-Added Iceland and the Ottomans.
+Fixed requirement bug for narrative events.
