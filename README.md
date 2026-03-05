@@ -2,7 +2,7 @@
 
 Author: austineamonn
 
-Version: 1.3.1
+Version: 1.3.2
 
 ## Current Mod:
 
@@ -12,4 +12,4 @@ Works for all Base Civilizations and DLC Civilizations.
 
 ## Latest Update:
 
-Fixed requirement bug for narrative events.
+Fixed requirement bug for narrative events where capturing the Shawnee Capital also gave the Ottomans Traditions.
